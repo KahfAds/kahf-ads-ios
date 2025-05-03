@@ -1929,42 +1929,49 @@
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
       "kind": "StringLiteral",
-      "offset": 286,
+      "offset": 379,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
       "kind": "StringLiteral",
-      "offset": 329,
+      "offset": 422,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
       "kind": "Dictionary",
-      "offset": 396,
+      "offset": 489,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "kind": "Dictionary",
+      "offset": 564,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 458,
+      "offset": 626,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1739,
       "length": 38,
       "value": "\"paid|publisher-house|community|house\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2604,
+      "offset": 2772,
       "length": 4,
       "value": "true"
     },
