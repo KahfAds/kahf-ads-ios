@@ -1,0 +1,6 @@
+framework module KahfAdSDK {
+  umbrella header "KahfAdSDK.h"
+  export *
+
+  module * { export * }
+}

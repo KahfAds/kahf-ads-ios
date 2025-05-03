@@ -1,0 +1,57 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KahfAdSDK
+import Combine
+import DeveloperToolsSupport
+import Foundation
+@_exported import KahfAdSDK
+import Network
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct KahfAdsConfig {
+  public let adType: KahfAdSDK.KahfAdsType
+  public let divId: Swift.String
+  public let screenName: Swift.String
+  public let autoHide: Swift.Bool
+  public init(adType: KahfAdSDK.KahfAdsType, divId: Swift.String, screenName: Swift.String, autoHide: Swift.Bool = true)
+}
+public enum KahfAdsType : Swift.String {
+  case BANNER_AD
+  case VIDEO_FEED_AD
+  case VIDEO_SHORTS_AD
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum KahfAdsListener {
+  case onAdLoaded
+  case onAdFailedToLoad(message: Swift.String?)
+  case onAdClicked
+}
+public protocol KahfAdsDelegate : AnyObject {
+  func onAdLoaded()
+  func onAdFailedToLoad(message: Swift.String?)
+  func onAdClicked()
+}
+@_hasMissingDesignatedInitializers final public class KahfAdsProvider : Combine.ObservableObject {
+  public static let shared: KahfAdSDK.KahfAdsProvider
+  weak final public var delegate: (any KahfAdSDK.KahfAdsDelegate)?
+  final public var listener: Combine.CurrentValueSubject<KahfAdSDK.KahfAdsListener?, Swift.Never>
+  final public var setAdClickListener: ((_ url: Swift.String?) -> Swift.Void)?
+  final public func initialize(withToken token: Swift.String, campaignTypes: Swift.String = "paid|publisher-house|community|house")
+  final public func getView(for config: KahfAdSDK.KahfAdsConfig) -> some SwiftUICore.View
+  
+  final public func refreshAd(for config: KahfAdSDK.KahfAdsConfig, startAutoRefresh: Swift.Bool = true)
+  final public func stopAutoRefresh(for config: KahfAdSDK.KahfAdsConfig)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension KahfAdSDK.KahfAdsType : Swift.Equatable {}
+extension KahfAdSDK.KahfAdsType : Swift.Hashable {}
+extension KahfAdSDK.KahfAdsType : Swift.RawRepresentable {}
