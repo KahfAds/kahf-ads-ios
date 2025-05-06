@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KahfAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q9n1nLgDTSIoiufUiXoY6CEowWY=
+		GX6LKQzlssywzrcOTI/EJkclRtY=
 		</data>
 		<key>Modules/KahfAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/KahfAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5/nDxOLU7HwMLMQ9PjHRNr5fEX8=
+		77xQVji1UyJHCIbdw3D0YdUDdu0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zZ+hkC+qXqnoyN4vRjZW/VBP29vbo6vUkaKNZ2b3Mdw=
+			wZSdL4su2M59jL7FdRVccQU5987KI+7rAzNVyhDg6HA=
 			</data>
 		</dict>
 		<key>Modules/KahfAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TciAvT2M0rxj+7DmXbnLXdTEKbhZMdc7LN5gxlSESCs=
+			0zVlKu7MJVqIAdvDsvpuh8XBKRFJJR2G6zmlUyoCCxg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
