@@ -36,8 +36,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KahfAdsConfig",
-        "printedName": "KahfAdsConfig",
+        "name": "KahfAdConfig",
+        "printedName": "KahfAdConfig",
         "children": [
           {
             "kind": "Var",
@@ -46,14 +46,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "KahfAdsType",
-                "printedName": "KahfAdSDK.KahfAdsType",
-                "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                "name": "KahfAdType",
+                "printedName": "KahfAdSDK.KahfAdType",
+                "usr": "s:9KahfAdSDK0aB4TypeO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A9AdsConfigV6adTypeAA0adG0Ovp",
-            "mangledName": "$s9KahfAdSDK0A9AdsConfigV6adTypeAA0adG0Ovp",
+            "usr": "s:9KahfAdSDK0aB6ConfigV6adTypeAA0abF0Ovp",
+            "mangledName": "$s9KahfAdSDK0aB6ConfigV6adTypeAA0abF0Ovp",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "HasStorage",
@@ -69,14 +69,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsType",
-                    "printedName": "KahfAdSDK.KahfAdsType",
-                    "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                    "name": "KahfAdType",
+                    "printedName": "KahfAdSDK.KahfAdType",
+                    "usr": "s:9KahfAdSDK0aB4TypeO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV6adTypeAA0adG0Ovg",
-                "mangledName": "$s9KahfAdSDK0A9AdsConfigV6adTypeAA0adG0Ovg",
+                "usr": "s:9KahfAdSDK0aB6ConfigV6adTypeAA0abF0Ovg",
+                "mangledName": "$s9KahfAdSDK0aB6ConfigV6adTypeAA0abF0Ovg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -96,8 +96,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A9AdsConfigV5divIdSSvp",
-            "mangledName": "$s9KahfAdSDK0A9AdsConfigV5divIdSSvp",
+            "usr": "s:9KahfAdSDK0aB6ConfigV5divIdSSvp",
+            "mangledName": "$s9KahfAdSDK0aB6ConfigV5divIdSSvp",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "HasStorage",
@@ -119,8 +119,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV5divIdSSvg",
-                "mangledName": "$s9KahfAdSDK0A9AdsConfigV5divIdSSvg",
+                "usr": "s:9KahfAdSDK0aB6ConfigV5divIdSSvg",
+                "mangledName": "$s9KahfAdSDK0aB6ConfigV5divIdSSvg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -140,8 +140,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A9AdsConfigV10screenNameSSvp",
-            "mangledName": "$s9KahfAdSDK0A9AdsConfigV10screenNameSSvp",
+            "usr": "s:9KahfAdSDK0aB6ConfigV10screenNameSSvp",
+            "mangledName": "$s9KahfAdSDK0aB6ConfigV10screenNameSSvp",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "HasStorage",
@@ -163,8 +163,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV10screenNameSSvg",
-                "mangledName": "$s9KahfAdSDK0A9AdsConfigV10screenNameSSvg",
+                "usr": "s:9KahfAdSDK0aB6ConfigV10screenNameSSvg",
+                "mangledName": "$s9KahfAdSDK0aB6ConfigV10screenNameSSvg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -184,8 +184,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A9AdsConfigV8autoHideSbvp",
-            "mangledName": "$s9KahfAdSDK0A9AdsConfigV8autoHideSbvp",
+            "usr": "s:9KahfAdSDK0aB6ConfigV8autoHideSbvp",
+            "mangledName": "$s9KahfAdSDK0aB6ConfigV8autoHideSbvp",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "HasStorage",
@@ -207,8 +207,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV8autoHideSbvg",
-                "mangledName": "$s9KahfAdSDK0A9AdsConfigV8autoHideSbvg",
+                "usr": "s:9KahfAdSDK0aB6ConfigV8autoHideSbvg",
+                "mangledName": "$s9KahfAdSDK0aB6ConfigV8autoHideSbvg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -222,15 +222,15 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "KahfAdsConfig",
-                "printedName": "KahfAdSDK.KahfAdsConfig",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV"
+                "name": "KahfAdConfig",
+                "printedName": "KahfAdSDK.KahfAdConfig",
+                "usr": "s:9KahfAdSDK0aB6ConfigV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "KahfAdsType",
-                "printedName": "KahfAdSDK.KahfAdsType",
-                "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                "name": "KahfAdType",
+                "printedName": "KahfAdSDK.KahfAdType",
+                "usr": "s:9KahfAdSDK0aB4TypeO"
               },
               {
                 "kind": "TypeNominal",
@@ -253,8 +253,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9KahfAdSDK0A9AdsConfigV6adType5divId10screenName8autoHideAcA0adG0O_S2SSbtcfc",
-            "mangledName": "$s9KahfAdSDK0A9AdsConfigV6adType5divId10screenName8autoHideAcA0adG0O_S2SSbtcfc",
+            "usr": "s:9KahfAdSDK0aB6ConfigV6adType5divId10screenName8autoHideAcA0abF0O_S2SSbtcfc",
+            "mangledName": "$s9KahfAdSDK0aB6ConfigV6adType5divId10screenName8autoHideAcA0abF0O_S2SSbtcfc",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "AccessControl"
@@ -263,8 +263,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:9KahfAdSDK0A9AdsConfigV",
-        "mangledName": "$s9KahfAdSDK0A9AdsConfigV",
+        "usr": "s:9KahfAdSDK0aB6ConfigV",
+        "mangledName": "$s9KahfAdSDK0aB6ConfigV",
         "moduleName": "KahfAdSDK",
         "declAttributes": [
           "AccessControl"
@@ -288,8 +288,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KahfAdsType",
-        "printedName": "KahfAdsType",
+        "name": "KahfAdType",
+        "printedName": "KahfAdType",
         "children": [
           {
             "kind": "Var",
@@ -299,24 +299,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KahfAdSDK.KahfAdsType.Type) -> KahfAdSDK.KahfAdsType",
+                "printedName": "(KahfAdSDK.KahfAdType.Type) -> KahfAdSDK.KahfAdType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsType",
-                    "printedName": "KahfAdSDK.KahfAdsType",
-                    "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                    "name": "KahfAdType",
+                    "printedName": "KahfAdSDK.KahfAdType",
+                    "usr": "s:9KahfAdSDK0aB4TypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KahfAdSDK.KahfAdsType.Type",
+                    "printedName": "KahfAdSDK.KahfAdType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsType",
-                        "printedName": "KahfAdSDK.KahfAdsType",
-                        "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                        "name": "KahfAdType",
+                        "printedName": "KahfAdSDK.KahfAdType",
+                        "usr": "s:9KahfAdSDK0aB4TypeO"
                       }
                     ]
                   }
@@ -324,8 +324,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9KahfAdSDK0A7AdsTypeO9BANNER_ADyA2CmF",
-            "mangledName": "$s9KahfAdSDK0A7AdsTypeO9BANNER_ADyA2CmF",
+            "usr": "s:9KahfAdSDK0aB4TypeO9BANNER_ADyA2CmF",
+            "mangledName": "$s9KahfAdSDK0aB4TypeO9BANNER_ADyA2CmF",
             "moduleName": "KahfAdSDK"
           },
           {
@@ -336,24 +336,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KahfAdSDK.KahfAdsType.Type) -> KahfAdSDK.KahfAdsType",
+                "printedName": "(KahfAdSDK.KahfAdType.Type) -> KahfAdSDK.KahfAdType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsType",
-                    "printedName": "KahfAdSDK.KahfAdsType",
-                    "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                    "name": "KahfAdType",
+                    "printedName": "KahfAdSDK.KahfAdType",
+                    "usr": "s:9KahfAdSDK0aB4TypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KahfAdSDK.KahfAdsType.Type",
+                    "printedName": "KahfAdSDK.KahfAdType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsType",
-                        "printedName": "KahfAdSDK.KahfAdsType",
-                        "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                        "name": "KahfAdType",
+                        "printedName": "KahfAdSDK.KahfAdType",
+                        "usr": "s:9KahfAdSDK0aB4TypeO"
                       }
                     ]
                   }
@@ -361,8 +361,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9KahfAdSDK0A7AdsTypeO13VIDEO_FEED_ADyA2CmF",
-            "mangledName": "$s9KahfAdSDK0A7AdsTypeO13VIDEO_FEED_ADyA2CmF",
+            "usr": "s:9KahfAdSDK0aB4TypeO13VIDEO_FEED_ADyA2CmF",
+            "mangledName": "$s9KahfAdSDK0aB4TypeO13VIDEO_FEED_ADyA2CmF",
             "moduleName": "KahfAdSDK"
           },
           {
@@ -373,24 +373,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KahfAdSDK.KahfAdsType.Type) -> KahfAdSDK.KahfAdsType",
+                "printedName": "(KahfAdSDK.KahfAdType.Type) -> KahfAdSDK.KahfAdType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsType",
-                    "printedName": "KahfAdSDK.KahfAdsType",
-                    "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                    "name": "KahfAdType",
+                    "printedName": "KahfAdSDK.KahfAdType",
+                    "usr": "s:9KahfAdSDK0aB4TypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KahfAdSDK.KahfAdsType.Type",
+                    "printedName": "KahfAdSDK.KahfAdType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsType",
-                        "printedName": "KahfAdSDK.KahfAdsType",
-                        "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                        "name": "KahfAdType",
+                        "printedName": "KahfAdSDK.KahfAdType",
+                        "usr": "s:9KahfAdSDK0aB4TypeO"
                       }
                     ]
                   }
@@ -398,8 +398,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9KahfAdSDK0A7AdsTypeO15VIDEO_SHORTS_ADyA2CmF",
-            "mangledName": "$s9KahfAdSDK0A7AdsTypeO15VIDEO_SHORTS_ADyA2CmF",
+            "usr": "s:9KahfAdSDK0aB4TypeO15VIDEO_SHORTS_ADyA2CmF",
+            "mangledName": "$s9KahfAdSDK0aB4TypeO15VIDEO_SHORTS_ADyA2CmF",
             "moduleName": "KahfAdSDK"
           },
           {
@@ -410,13 +410,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KahfAdSDK.KahfAdsType?",
+                "printedName": "KahfAdSDK.KahfAdType?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsType",
-                    "printedName": "KahfAdSDK.KahfAdsType",
-                    "usr": "s:9KahfAdSDK0A7AdsTypeO"
+                    "name": "KahfAdType",
+                    "printedName": "KahfAdSDK.KahfAdType",
+                    "usr": "s:9KahfAdSDK0aB4TypeO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -429,8 +429,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9KahfAdSDK0A7AdsTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s9KahfAdSDK0A7AdsTypeO8rawValueACSgSS_tcfc",
+            "usr": "s:9KahfAdSDK0aB4TypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9KahfAdSDK0aB4TypeO8rawValueACSgSS_tcfc",
             "moduleName": "KahfAdSDK",
             "implicit": true,
             "init_kind": "Designated"
@@ -448,8 +448,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A7AdsTypeO8rawValueSSvp",
-            "mangledName": "$s9KahfAdSDK0A7AdsTypeO8rawValueSSvp",
+            "usr": "s:9KahfAdSDK0aB4TypeO8rawValueSSvp",
+            "mangledName": "$s9KahfAdSDK0aB4TypeO8rawValueSSvp",
             "moduleName": "KahfAdSDK",
             "implicit": true,
             "accessors": [
@@ -466,8 +466,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A7AdsTypeO8rawValueSSvg",
-                "mangledName": "$s9KahfAdSDK0A7AdsTypeO8rawValueSSvg",
+                "usr": "s:9KahfAdSDK0aB4TypeO8rawValueSSvg",
+                "mangledName": "$s9KahfAdSDK0aB4TypeO8rawValueSSvg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -476,8 +476,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:9KahfAdSDK0A7AdsTypeO",
-        "mangledName": "$s9KahfAdSDK0A7AdsTypeO",
+        "usr": "s:9KahfAdSDK0aB4TypeO",
+        "mangledName": "$s9KahfAdSDK0aB4TypeO",
         "moduleName": "KahfAdSDK",
         "declAttributes": [
           "AccessControl"
@@ -548,8 +548,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KahfAdsListener",
-        "printedName": "KahfAdsListener",
+        "name": "KahfAdListener",
+        "printedName": "KahfAdListener",
         "children": [
           {
             "kind": "Var",
@@ -559,24 +559,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KahfAdSDK.KahfAdsListener.Type) -> KahfAdSDK.KahfAdsListener",
+                "printedName": "(KahfAdSDK.KahfAdListener.Type) -> KahfAdSDK.KahfAdListener",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsListener",
-                    "printedName": "KahfAdSDK.KahfAdsListener",
-                    "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                    "name": "KahfAdListener",
+                    "printedName": "KahfAdSDK.KahfAdListener",
+                    "usr": "s:9KahfAdSDK0aB8ListenerO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KahfAdSDK.KahfAdsListener.Type",
+                    "printedName": "KahfAdSDK.KahfAdListener.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsListener",
-                        "printedName": "KahfAdSDK.KahfAdsListener",
-                        "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                        "name": "KahfAdListener",
+                        "printedName": "KahfAdSDK.KahfAdListener",
+                        "usr": "s:9KahfAdSDK0aB8ListenerO"
                       }
                     ]
                   }
@@ -584,8 +584,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9KahfAdSDK0A11AdsListenerO02onB6LoadedyA2CmF",
-            "mangledName": "$s9KahfAdSDK0A11AdsListenerO02onB6LoadedyA2CmF",
+            "usr": "s:9KahfAdSDK0aB8ListenerO02onB6LoadedyA2CmF",
+            "mangledName": "$s9KahfAdSDK0aB8ListenerO02onB6LoadedyA2CmF",
             "moduleName": "KahfAdSDK"
           },
           {
@@ -596,18 +596,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KahfAdSDK.KahfAdsListener.Type) -> (Swift.String?) -> KahfAdSDK.KahfAdsListener",
+                "printedName": "(KahfAdSDK.KahfAdListener.Type) -> (Swift.String?) -> KahfAdSDK.KahfAdListener",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String?) -> KahfAdSDK.KahfAdsListener",
+                    "printedName": "(Swift.String?) -> KahfAdSDK.KahfAdListener",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsListener",
-                        "printedName": "KahfAdSDK.KahfAdsListener",
-                        "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                        "name": "KahfAdListener",
+                        "printedName": "KahfAdSDK.KahfAdListener",
+                        "usr": "s:9KahfAdSDK0aB8ListenerO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -635,13 +635,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KahfAdSDK.KahfAdsListener.Type",
+                    "printedName": "KahfAdSDK.KahfAdListener.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsListener",
-                        "printedName": "KahfAdSDK.KahfAdsListener",
-                        "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                        "name": "KahfAdListener",
+                        "printedName": "KahfAdSDK.KahfAdListener",
+                        "usr": "s:9KahfAdSDK0aB8ListenerO"
                       }
                     ]
                   }
@@ -649,8 +649,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9KahfAdSDK0A11AdsListenerO02onB12FailedToLoadyACSSSg_tcACmF",
-            "mangledName": "$s9KahfAdSDK0A11AdsListenerO02onB12FailedToLoadyACSSSg_tcACmF",
+            "usr": "s:9KahfAdSDK0aB8ListenerO02onB12FailedToLoadyACSSSg_tcACmF",
+            "mangledName": "$s9KahfAdSDK0aB8ListenerO02onB12FailedToLoadyACSSSg_tcACmF",
             "moduleName": "KahfAdSDK"
           },
           {
@@ -661,24 +661,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KahfAdSDK.KahfAdsListener.Type) -> KahfAdSDK.KahfAdsListener",
+                "printedName": "(KahfAdSDK.KahfAdListener.Type) -> KahfAdSDK.KahfAdListener",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsListener",
-                    "printedName": "KahfAdSDK.KahfAdsListener",
-                    "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                    "name": "KahfAdListener",
+                    "printedName": "KahfAdSDK.KahfAdListener",
+                    "usr": "s:9KahfAdSDK0aB8ListenerO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KahfAdSDK.KahfAdsListener.Type",
+                    "printedName": "KahfAdSDK.KahfAdListener.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsListener",
-                        "printedName": "KahfAdSDK.KahfAdsListener",
-                        "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                        "name": "KahfAdListener",
+                        "printedName": "KahfAdSDK.KahfAdListener",
+                        "usr": "s:9KahfAdSDK0aB8ListenerO"
                       }
                     ]
                   }
@@ -686,14 +686,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9KahfAdSDK0A11AdsListenerO02onB7ClickedyA2CmF",
-            "mangledName": "$s9KahfAdSDK0A11AdsListenerO02onB7ClickedyA2CmF",
+            "usr": "s:9KahfAdSDK0aB8ListenerO02onB7ClickedyA2CmF",
+            "mangledName": "$s9KahfAdSDK0aB8ListenerO02onB7ClickedyA2CmF",
             "moduleName": "KahfAdSDK"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:9KahfAdSDK0A11AdsListenerO",
-        "mangledName": "$s9KahfAdSDK0A11AdsListenerO",
+        "usr": "s:9KahfAdSDK0aB8ListenerO",
+        "mangledName": "$s9KahfAdSDK0aB8ListenerO",
         "moduleName": "KahfAdSDK",
         "declAttributes": [
           "AccessControl"
@@ -717,8 +717,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KahfAdsDelegate",
-        "printedName": "KahfAdsDelegate",
+        "name": "KahfAdDelegate",
+        "printedName": "KahfAdDelegate",
         "children": [
           {
             "kind": "Function",
@@ -732,11 +732,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KahfAdSDK0A11AdsDelegateP02onB6LoadedyyF",
-            "mangledName": "$s9KahfAdSDK0A11AdsDelegateP02onB6LoadedyyF",
+            "usr": "s:9KahfAdSDK0aB8DelegateP02onB6LoadedyyF",
+            "mangledName": "$s9KahfAdSDK0aB8DelegateP02onB6LoadedyyF",
             "moduleName": "KahfAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdSDK.KahfAdsDelegate>",
-            "sugared_genericSig": "<Self where Self : KahfAdSDK.KahfAdsDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdSDK.KahfAdDelegate>",
+            "sugared_genericSig": "<Self where Self : KahfAdSDK.KahfAdDelegate>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -767,11 +767,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KahfAdSDK0A11AdsDelegateP02onB12FailedToLoad7messageySSSg_tF",
-            "mangledName": "$s9KahfAdSDK0A11AdsDelegateP02onB12FailedToLoad7messageySSSg_tF",
+            "usr": "s:9KahfAdSDK0aB8DelegateP02onB12FailedToLoad7messageySSSg_tF",
+            "mangledName": "$s9KahfAdSDK0aB8DelegateP02onB12FailedToLoad7messageySSSg_tF",
             "moduleName": "KahfAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdSDK.KahfAdsDelegate>",
-            "sugared_genericSig": "<Self where Self : KahfAdSDK.KahfAdsDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdSDK.KahfAdDelegate>",
+            "sugared_genericSig": "<Self where Self : KahfAdSDK.KahfAdDelegate>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -788,19 +788,19 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KahfAdSDK0A11AdsDelegateP02onB7ClickedyyF",
-            "mangledName": "$s9KahfAdSDK0A11AdsDelegateP02onB7ClickedyyF",
+            "usr": "s:9KahfAdSDK0aB8DelegateP02onB7ClickedyyF",
+            "mangledName": "$s9KahfAdSDK0aB8DelegateP02onB7ClickedyyF",
             "moduleName": "KahfAdSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdSDK.KahfAdsDelegate>",
-            "sugared_genericSig": "<Self where Self : KahfAdSDK.KahfAdsDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdSDK.KahfAdDelegate>",
+            "sugared_genericSig": "<Self where Self : KahfAdSDK.KahfAdDelegate>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:9KahfAdSDK0A11AdsDelegateP",
-        "mangledName": "$s9KahfAdSDK0A11AdsDelegateP",
+        "usr": "s:9KahfAdSDK0aB8DelegateP",
+        "mangledName": "$s9KahfAdSDK0aB8DelegateP",
         "moduleName": "KahfAdSDK",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -822,6 +822,16 @@
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KahfAdSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -982,8 +992,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KahfAdsProvider",
-        "printedName": "KahfAdsProvider",
+        "name": "KahfAdProvider",
+        "printedName": "KahfAdProvider",
         "children": [
           {
             "kind": "Var",
@@ -992,14 +1002,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "KahfAdsProvider",
-                "printedName": "KahfAdSDK.KahfAdsProvider",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC"
+                "name": "KahfAdProvider",
+                "printedName": "KahfAdSDK.KahfAdProvider",
+                "usr": "s:9KahfAdSDK0aB8ProviderC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC6sharedACvpZ",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC6sharedACvpZ",
+            "usr": "s:9KahfAdSDK0aB8ProviderC6sharedACvpZ",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC6sharedACvpZ",
             "moduleName": "KahfAdSDK",
             "static": true,
             "declAttributes": [
@@ -1018,14 +1028,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KahfAdsProvider",
-                    "printedName": "KahfAdSDK.KahfAdsProvider",
-                    "usr": "s:9KahfAdSDK0A11AdsProviderC"
+                    "name": "KahfAdProvider",
+                    "printedName": "KahfAdSDK.KahfAdProvider",
+                    "usr": "s:9KahfAdSDK0aB8ProviderC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC6sharedACvgZ",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC6sharedACvgZ",
+                "usr": "s:9KahfAdSDK0aB8ProviderC6sharedACvgZ",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC6sharedACvgZ",
                 "moduleName": "KahfAdSDK",
                 "static": true,
                 "implicit": true,
@@ -1044,12 +1054,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "(any KahfAdSDK.KahfAdsDelegate)?"
+                "printedName": "(any KahfAdSDK.KahfAdDelegate)?"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvp",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvp",
+            "usr": "s:9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvp",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -1070,21 +1080,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any KahfAdSDK.KahfAdsDelegate)?",
+                    "printedName": "(any KahfAdSDK.KahfAdDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsDelegate",
-                        "printedName": "any KahfAdSDK.KahfAdsDelegate",
-                        "usr": "s:9KahfAdSDK0A11AdsDelegateP"
+                        "name": "KahfAdDelegate",
+                        "printedName": "any KahfAdSDK.KahfAdDelegate",
+                        "usr": "s:9KahfAdSDK0aB8DelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvg",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvg",
+                "usr": "s:9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1105,21 +1115,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any KahfAdSDK.KahfAdsDelegate)?",
+                    "printedName": "(any KahfAdSDK.KahfAdDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsDelegate",
-                        "printedName": "any KahfAdSDK.KahfAdsDelegate",
-                        "usr": "s:9KahfAdSDK0A11AdsDelegateP"
+                        "name": "KahfAdDelegate",
+                        "printedName": "any KahfAdSDK.KahfAdDelegate",
+                        "usr": "s:9KahfAdSDK0aB8DelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvs",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvs",
+                "usr": "s:9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvs",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1139,8 +1149,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvM",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC8delegateAA0aD8Delegate_pSgvM",
+                "usr": "s:9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC8delegateAA0aB8Delegate_pSgvM",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1158,18 +1168,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "CurrentValueSubject",
-                "printedName": "Combine.CurrentValueSubject<KahfAdSDK.KahfAdsListener?, Swift.Never>",
+                "printedName": "Combine.CurrentValueSubject<KahfAdSDK.KahfAdListener?, Swift.Never>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KahfAdSDK.KahfAdsListener?",
+                    "printedName": "KahfAdSDK.KahfAdListener?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KahfAdsListener",
-                        "printedName": "KahfAdSDK.KahfAdsListener",
-                        "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                        "name": "KahfAdListener",
+                        "printedName": "KahfAdSDK.KahfAdListener",
+                        "usr": "s:9KahfAdSDK0aB8ListenerO"
                       }
                     ],
                     "usr": "s:Sq"
@@ -1185,8 +1195,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvp",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvp",
+            "usr": "s:9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvp",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvp",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -1205,18 +1215,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CurrentValueSubject",
-                    "printedName": "Combine.CurrentValueSubject<KahfAdSDK.KahfAdsListener?, Swift.Never>",
+                    "printedName": "Combine.CurrentValueSubject<KahfAdSDK.KahfAdListener?, Swift.Never>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "KahfAdSDK.KahfAdsListener?",
+                        "printedName": "KahfAdSDK.KahfAdListener?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "KahfAdsListener",
-                            "printedName": "KahfAdSDK.KahfAdsListener",
-                            "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                            "name": "KahfAdListener",
+                            "printedName": "KahfAdSDK.KahfAdListener",
+                            "usr": "s:9KahfAdSDK0aB8ListenerO"
                           }
                         ],
                         "usr": "s:Sq"
@@ -1232,8 +1242,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvg",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvg",
+                "usr": "s:9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvg",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1254,18 +1264,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CurrentValueSubject",
-                    "printedName": "Combine.CurrentValueSubject<KahfAdSDK.KahfAdsListener?, Swift.Never>",
+                    "printedName": "Combine.CurrentValueSubject<KahfAdSDK.KahfAdListener?, Swift.Never>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "KahfAdSDK.KahfAdsListener?",
+                        "printedName": "KahfAdSDK.KahfAdListener?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "KahfAdsListener",
-                            "printedName": "KahfAdSDK.KahfAdsListener",
-                            "usr": "s:9KahfAdSDK0A11AdsListenerO"
+                            "name": "KahfAdListener",
+                            "printedName": "KahfAdSDK.KahfAdListener",
+                            "usr": "s:9KahfAdSDK0aB8ListenerO"
                           }
                         ],
                         "usr": "s:Sq"
@@ -1281,8 +1291,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvs",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvs",
+                "usr": "s:9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvs",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvs",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1302,8 +1312,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvM",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC8listener7Combine19CurrentValueSubjectCyAA0aD8ListenerOSgs5NeverOGvM",
+                "usr": "s:9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvM",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC8listener7Combine19CurrentValueSubjectCyAA0aB8ListenerOSgs5NeverOGvM",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1354,8 +1364,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvp",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvp",
+            "usr": "s:9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvp",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvp",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -1407,8 +1417,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvg",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvg",
+                "usr": "s:9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvg",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvg",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1462,8 +1472,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvs",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvs",
+                "usr": "s:9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvs",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvs",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1483,8 +1493,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvM",
-                "mangledName": "$s9KahfAdSDK0A11AdsProviderC03setB13ClickListenerySSSgcSgvM",
+                "usr": "s:9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvM",
+                "mangledName": "$s9KahfAdSDK0aB8ProviderC03setB13ClickListenerySSSgcSgvM",
                 "moduleName": "KahfAdSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1519,8 +1529,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC10initialize9withToken13campaignTypesySS_SStF",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC10initialize9withToken13campaignTypesySS_SStF",
+            "usr": "s:9KahfAdSDK0aB8ProviderC10initialize9withToken13campaignTypesySS_SStF",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC10initialize9withToken13campaignTypesySS_SStF",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "Final",
@@ -1549,14 +1559,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "KahfAdsConfig",
-                "printedName": "KahfAdSDK.KahfAdsConfig",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV"
+                "name": "KahfAdConfig",
+                "printedName": "KahfAdSDK.KahfAdConfig",
+                "usr": "s:9KahfAdSDK0aB6ConfigV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC7getView3forQrAA0aD6ConfigV_tF",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC7getView3forQrAA0aD6ConfigV_tF",
+            "usr": "s:9KahfAdSDK0aB8ProviderC7getView3forQrAA0aB6ConfigV_tF",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC7getView3forQrAA0aB6ConfigV_tF",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "Final",
@@ -1577,9 +1587,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "KahfAdsConfig",
-                "printedName": "KahfAdSDK.KahfAdsConfig",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV"
+                "name": "KahfAdConfig",
+                "printedName": "KahfAdSDK.KahfAdConfig",
+                "usr": "s:9KahfAdSDK0aB6ConfigV"
               },
               {
                 "kind": "TypeNominal",
@@ -1590,8 +1600,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC07refreshB03for16startAutoRefreshyAA0aD6ConfigV_SbtF",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC07refreshB03for16startAutoRefreshyAA0aD6ConfigV_SbtF",
+            "usr": "s:9KahfAdSDK0aB8ProviderC07refreshB03for16startAutoRefreshyAA0aB6ConfigV_SbtF",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC07refreshB03for16startAutoRefreshyAA0aB6ConfigV_SbtF",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "Final",
@@ -1612,14 +1622,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "KahfAdsConfig",
-                "printedName": "KahfAdSDK.KahfAdsConfig",
-                "usr": "s:9KahfAdSDK0A9AdsConfigV"
+                "name": "KahfAdConfig",
+                "printedName": "KahfAdSDK.KahfAdConfig",
+                "usr": "s:9KahfAdSDK0aB6ConfigV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9KahfAdSDK0A11AdsProviderC15stopAutoRefresh3foryAA0aD6ConfigV_tF",
-            "mangledName": "$s9KahfAdSDK0A11AdsProviderC15stopAutoRefresh3foryAA0aD6ConfigV_tF",
+            "usr": "s:9KahfAdSDK0aB8ProviderC15stopAutoRefresh3foryAA0aB6ConfigV_tF",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC15stopAutoRefresh3foryAA0aB6ConfigV_tF",
             "moduleName": "KahfAdSDK",
             "declAttributes": [
               "Final",
@@ -1630,8 +1640,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:9KahfAdSDK0A11AdsProviderC",
-        "mangledName": "$s9KahfAdSDK0A11AdsProviderC",
+        "usr": "s:9KahfAdSDK0aB8ProviderC",
+        "mangledName": "$s9KahfAdSDK0aB8ProviderC",
         "moduleName": "KahfAdSDK",
         "declAttributes": [
           "AccessControl",
@@ -1808,100 +1818,107 @@
       "value": "\"div_id\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/KahfAdsConfig.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/KahfAdConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 393,
+      "offset": 389,
       "length": 4,
       "value": "true"
     },
     {
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/KahfAdProvider+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 5613,
+      "length": 11,
+      "value": "\"KahfAdSDK\""
+    },
+    {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4530,
+      "offset": 4529,
       "length": 21,
       "value": "\"com.apple.CFNetwork\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4716,
+      "offset": 4715,
       "length": 8,
       "value": "\"1220.1\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5022,
+      "offset": 5021,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5132,
+      "offset": 5131,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5405,
+      "offset": 5404,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5478,
+      "offset": 5477,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5489,
+      "offset": 5488,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5553,
+      "offset": 5552,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5597,
+      "offset": 5596,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5623,
+      "offset": 5622,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5634,
+      "offset": 5633,
       "length": 12,
       "value": "\"UnknownApp\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5647,
+      "offset": 5646,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5658,
+      "offset": 5657,
       "length": 1,
       "value": "\"\""
     },
@@ -1922,56 +1939,56 @@
     {
       "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/ViewModel\/BannerAdViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 335,
+      "offset": 334,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "StringLiteral",
-      "offset": 379,
+      "offset": 377,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "StringLiteral",
-      "offset": 422,
+      "offset": 421,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "Dictionary",
       "offset": 489,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "Dictionary",
-      "offset": 564,
+      "offset": 565,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 626,
+      "offset": 628,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1663,
       "length": 38,
       "value": "\"paid|publisher-house|community|house\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdsProvider.swift",
+      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2772,
+      "offset": 2694,
       "length": 4,
       "value": "true"
     },
