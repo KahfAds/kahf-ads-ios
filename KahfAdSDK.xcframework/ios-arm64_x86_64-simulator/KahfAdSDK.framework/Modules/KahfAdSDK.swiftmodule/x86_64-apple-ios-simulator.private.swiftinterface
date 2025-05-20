@@ -48,6 +48,7 @@ public protocol KahfAdDelegate : AnyObject {
   final public func initialize(withToken token: Swift.String, campaignTypes: Swift.String = "paid|publisher-house|community|house")
   final public func getView(for config: KahfAdSDK.KahfAdConfig) -> some SwiftUICore.View
   
+  final public func getUIView(for config: KahfAdSDK.KahfAdConfig) -> UIKit.UIView
   final public func refreshAd(for config: KahfAdSDK.KahfAdConfig, startAutoRefresh: Swift.Bool = true)
   final public func stopAutoRefresh(for config: KahfAdSDK.KahfAdConfig)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher

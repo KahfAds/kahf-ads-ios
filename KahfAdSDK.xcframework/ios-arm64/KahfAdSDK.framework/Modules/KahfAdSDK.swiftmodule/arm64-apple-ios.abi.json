@@ -846,6 +846,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KahfAdSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -975,13 +982,20 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "KahfAdSDK",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KahfAdSDK"
       },
       {
         "kind": "Import",
@@ -1577,6 +1591,34 @@
           },
           {
             "kind": "Function",
+            "name": "getUIView",
+            "printedName": "getUIView(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdConfig",
+                "printedName": "KahfAdSDK.KahfAdConfig",
+                "usr": "s:9KahfAdSDK0aB6ConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KahfAdSDK0aB8ProviderC9getUIView3forSo0F0CAA0aB6ConfigV_tF",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC9getUIView3forSo0F0CAA0aB6ConfigV_tF",
+            "moduleName": "KahfAdSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "refreshAd",
             "printedName": "refreshAd(for:startAutoRefresh:)",
             "children": [
@@ -1720,280 +1762,280 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionRequest.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionRequest.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 6,
       "value": "\"json\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 547,
       "length": 6,
       "value": "\"text\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 574,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 601,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 7,
       "value": "\"video\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 686,
       "length": 6,
       "value": "\"link\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 716,
       "length": 10,
       "value": "\"view_url\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 754,
       "length": 15,
       "value": "\"view_time_url\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 791,
       "length": 7,
       "value": "\"nonce\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 826,
       "length": 14,
       "value": "\"display_type\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 869,
       "length": 15,
       "value": "\"campaign_type\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/AdDecisionResponse.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 8,
       "value": "\"div_id\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/KahfAdConfig.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Model\/KahfAdConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 389,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/KahfAdProvider+Helper.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/KahfAdProvider+Helper.swift",
       "kind": "StringLiteral",
-      "offset": 5613,
+      "offset": 7234,
       "length": 11,
       "value": "\"KahfAdSDK\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 4529,
       "length": 21,
       "value": "\"com.apple.CFNetwork\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 4715,
       "length": 8,
       "value": "\"1220.1\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5021,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5131,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5404,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5477,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5488,
       "length": 3,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5552,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5596,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5622,
       "length": 36,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5633,
       "length": 12,
       "value": "\"UnknownApp\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5646,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/Utils\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 5657,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/View\/AdViewModelContainer.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/View\/AdViewModelContainer.swift",
       "kind": "IntegerLiteral",
       "offset": 490,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/View\/BannerAdView.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/View\/BannerAdView.swift",
       "kind": "BooleanLiteral",
       "offset": 232,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/ViewModel\/BannerAdViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/ViewModel\/BannerAdViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 334,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "StringLiteral",
-      "offset": 377,
+      "offset": 390,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 434,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "Dictionary",
-      "offset": 489,
+      "offset": 502,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "Dictionary",
-      "offset": 565,
+      "offset": 578,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 628,
+      "offset": 641,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1663,
+      "offset": 1676,
       "length": 38,
       "value": "\"paid|publisher-house|community|house\""
     },
     {
-      "filePath": "\/Users\/rubel\/Documents\/MyProjects\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
+      "filePath": "\/Users\/runner\/work\/kahf-ads-ios-sdk\/kahf-ads-ios-sdk\/KahfAdSDK\/KahfAdProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2694,
+      "offset": 2972,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rubel\/Library\/Developer\/Xcode\/DerivedData\/KahfAdSDK-fmgxomqvoxiatweakmqydsmnoihr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KahfAdSDK\/IntermediateBuildFilesPath\/KahfAdSDK.build\/Release-iphoneos\/KahfAdSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/KahfAdSDK-gwtcbibviszsehdjdxcwsaeorkrt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KahfAdSDK\/IntermediateBuildFilesPath\/KahfAdSDK.build\/Release-iphoneos\/KahfAdSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 13,
