@@ -1679,6 +1679,34 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAutoRefreshTime",
+            "printedName": "setAutoRefreshTime(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9KahfAdSDK0aB8ProviderC18setAutoRefreshTimeyySdF",
+            "mangledName": "$s9KahfAdSDK0aB8ProviderC18setAutoRefreshTimeyySdF",
+            "moduleName": "KahfAdSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",

@@ -51,6 +51,7 @@ public protocol KahfAdDelegate : AnyObject {
   final public func getUIView(for config: KahfAdSDK.KahfAdConfig) -> UIKit.UIView
   final public func refreshAd(for config: KahfAdSDK.KahfAdConfig, startAutoRefresh: Swift.Bool = true)
   final public func stopAutoRefresh(for config: KahfAdSDK.KahfAdConfig)
+  final public func setAutoRefreshTime(_ newTimeInterval: Foundation.TimeInterval)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
 extension KahfAdSDK.KahfAdType : Swift.Equatable {}
