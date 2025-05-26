@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let token: String = <#Token#>
         KahfAdProvider.shared.initialize(withToken: token)
         
+        // Change auto refresh time interval if needed (in seconds). Default is 10 seconds.
+        KahfAdProvider.shared.setAutoRefreshTime(15)
+        
         return true
     }
 }

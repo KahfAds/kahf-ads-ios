@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/KahfAds/kahf-ads-ios.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "845992f95820f1145a809de078c5e2ca8bea9360"
+        "revision" : "7892cee5244ba5a420233988794dee23059660ca",
+        "version" : "1.0.3"
       }
     }
   ],
