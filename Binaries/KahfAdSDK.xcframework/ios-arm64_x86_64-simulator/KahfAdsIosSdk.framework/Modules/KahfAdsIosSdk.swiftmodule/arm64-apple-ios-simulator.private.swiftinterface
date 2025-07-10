@@ -10,6 +10,12 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class Logger {
+  @objc deinit
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
 @_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
   @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
@@ -131,12 +137,6 @@ public struct KahfAdsViewConfig : Swift.Hashable {
   public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
   public func isSdkInitialized() -> Swift.Bool
   @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Logger {
-  @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
 }
 extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}
