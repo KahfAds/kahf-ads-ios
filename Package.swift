@@ -1,23 +1,38 @@
-// swift-tools-version: 6.0
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
+// swift-tools-version: 5.10
 import PackageDescription
 
 let package = Package(
-    name: "KahfAdSDK",
+    name: "KahfAdsSDK",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
+        // The only product your customers select
         .library(
-            name: "KahfAdSDK",
+            name: "KahfAdsSDK",
             targets: ["KahfAdSDK"]
         ),
     ],
+    dependencies: [
+        // ─────────────── Third-party packages ───────────────
+        .package(
+            url: "https://github.com/kaishin/Gifu.git",
+            .exact("3.2.2")
+        ),
+        .package(
+            url: "https://github.com/kean/Nuke.git",
+            .exact("12.8.0")
+        ),
+        .package(
+            url: "https://github.com/rickclephas/KMP-NativeCoroutines.git",
+            .exact("1.0.0-ALPHA-44")
+        )
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "KahfAdSDK",
-            path: "KahfAdSDK.xcframework"
+            path: "Binaries/KahfAdSDK.xcframework",
         ),
+
     ]
 )

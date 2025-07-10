@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import KahfAdSDK
+import KahfAdsIosSdk
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     
@@ -15,12 +15,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
     ) -> Bool {
         
-        // TODO: Replace with your actual token
-        let token: String = <#Token#>
-        KahfAdProvider.shared.initialize(withToken: token)
+        KahfAdsSdk.shared.initialize(config: KahfAdsSdkConfig(fallbackPublisherId: "muslims-day"))
         
-        // Change auto refresh time interval if needed (in seconds). Default is 10 seconds.
-        KahfAdProvider.shared.setAutoRefreshTime(15)
         
         return true
     }

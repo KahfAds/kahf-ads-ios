@@ -6,50 +6,68 @@
 //
 
 import SwiftUI
-import KahfAdSDK
+import KahfAdsIosSdk
 
 struct ContentView: View {
     
-    let adConfig = KahfAdConfig(
-        adType: .BANNER_AD,
-        divId: "under-saalat-time",
-        screenName: "home-page-ios",
-        autoHide: false
-    )
-    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            KahfAdProvider.shared.getView(for: adConfig)
-                .padding(Edge.Set.horizontal, 16)
+        VStack(spacing: 10) {
+            Text("--- Ad Space ---")
+                .font(.caption)
+                .foregroundColor(.secondary)
+            
+            LargeBannerAdView(
+                viewConfig: KahfAdsViewConfig(
+                    screenName: "HomeScreen",
+                    placementId: .Epom("ea0443cc23fd2fcb99187057f3fa85dc"),
+                    refreshIntervalInMillis: 10000
+                ),
+                adImpressionListener: AdImpressionListenerImpl(),
+                fallbackAdImpressionListener: FallbackAdImpressionListenerImpl()
+            )
+            .background(Color.gray.opacity(0.1))
         }
         .padding()
-        .onAppear {
-            // Must call this to get an ad.
-            KahfAdProvider.shared.refreshAd(for: adConfig)
+    }
+}
+
+class AdImpressionListenerImpl: AdImpressionListener {
+    func onAdClicked(urlToLoad: String) -> Bool {
+        print("Ad clicked with URL: \(urlToLoad)")
+        // Return false to let SDK handle the URL, or true to handle it yourself
+        return false
+    }
+
+    func onAdFailedToLoad(message: String, cause: KahfAdsError?) {
+        print("Ad failed to load: \(message)")
+        if let cause = cause {
+            print("Error details: \(cause)")
         }
-        .onDisappear {
-            // Stop refreshing the ad when the view disappears.
-            KahfAdProvider.shared.stopAutoRefresh(for: adConfig)
+    }
+
+    func onAdLoaded() {
+        print("Ad loaded successfully.")
+    }
+}
+
+class FallbackAdImpressionListenerImpl: FallbackAdImpressionListener {
+    func onFallbackAdClicked(urlToLoad: String) -> Bool {
+        print("Fallback Ad clicked with URL: \(urlToLoad)")
+        // Return false to let SDK handle the URL, or true to handle it yourself
+        return false
+    }
+
+    func onFallbackAdFailedToLoad(message: String, cause: KahfAdsError?) {
+        print("Fallback Ad failed to load: \(message)")
+        if let cause = cause {
+            print("Error details: \(cause)")
         }
-        .onReceive(KahfAdProvider.shared.listener) { listener in
-            // handle firebase log or othrer events here.
-            switch listener {
-            case .onAdLoaded:
-                print("Ad loaded successfully")
-                
-            case .onAdFailedToLoad(let message):
-                print("Ad failed to load with message: \(String(describing: message))")
-                
-            case .onAdClicked:
-                print("Ad clicked")
-                
-            default:
-                break
-            }
+    }
+
+    func onFallbackAdLoaded(primaryAdError: KahfAdsError?, headline: String) {
+        print("Fallback Ad loaded with headline: \(headline)")
+        if let primaryError = primaryAdError {
+            print("Primary ad error: \(primaryError)")
         }
     }
 }
