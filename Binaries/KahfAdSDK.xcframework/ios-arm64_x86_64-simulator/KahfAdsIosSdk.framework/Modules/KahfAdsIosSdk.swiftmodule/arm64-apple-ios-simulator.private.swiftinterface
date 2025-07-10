@@ -61,15 +61,25 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp", 0) __
 }
-public enum PlacementId {
+public enum PlacementId : Swift.Hashable {
   case Epom(Swift.String)
   case Inhouse(Swift.String)
+  public static func == (a: KahfAdsIosSdk.PlacementId, b: KahfAdsIosSdk.PlacementId) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct KahfAdsSdkConfig {
   public init(fallbackPublisherId: Swift.String, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil)
 }
-public struct KahfAdsViewConfig {
+public struct KahfAdsViewConfig : Swift.Hashable {
+  public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
   public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers public class KahfAdsError : Foundation.NSError, @unchecked Swift.Sendable {
   final public let message: Swift.String?

@@ -1682,6 +1682,102 @@
             "usr": "s:13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
             "mangledName": "$s13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
             "moduleName": "KahfAdsIosSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO9hashValueSivp",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO9hashValueSivp",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO9hashValueSivg",
+                "mangledName": "$s13KahfAdsIosSdk11PlacementIdO9hashValueSivg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO4hash4intoys6HasherVz_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementId",
+                "printedName": "KahfAdsIosSdk.PlacementId",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementId",
+                "printedName": "KahfAdsIosSdk.PlacementId",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO2eeoiySbAC_ACtFZ",
+            "moduleName": "KahfAdsIosSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -1706,6 +1802,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -1802,6 +1912,40 @@
         "printedName": "KahfAdsViewConfig",
         "children": [
           {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "KahfAdsIosSdk",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(screenName:placementId:refreshIntervalInMillis:latitude:longitude:)",
@@ -1878,6 +2022,70 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivp",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivp",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivg",
+                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV4hash4intoys6HasherVz_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -1901,6 +2109,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
