@@ -2267,22 +2267,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk0aB5ErrorC7messageSSSgvp",
-            "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC7messageSSSgvp",
+            "usr": "s:13KahfAdsIosSdk0aB5ErrorC7messageSSvp",
+            "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC7messageSSvp",
             "moduleName": "KahfAdsIosSdk",
             "declAttributes": [
               "Final",
@@ -2299,22 +2291,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk0aB5ErrorC7messageSSSgvg",
-                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC7messageSSSgvg",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC7messageSSvg",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC7messageSSvg",
                 "moduleName": "KahfAdsIosSdk",
                 "implicit": true,
                 "declAttributes": [
@@ -2389,9 +2373,57 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0aB5ErrorC4nameSSvp",
+            "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC4nameSSvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC4nameSSvg",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC4nameSSvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(message:underlyingError:)",
+            "printedName": "init(message:underlyingError:name:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2419,16 +2451,94 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk0aB5ErrorC7message010underlyingE0ACSS_s0E0_pSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC7message010underlyingE0ACSS_s0E0_pSgtcfc",
+            "usr": "s:13KahfAdsIosSdk0aB5ErrorC7message010underlyingE04nameACSS_s0E0_pSgSStcfc",
+            "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC7message010underlyingE04nameACSS_s0E0_pSgSStcfc",
             "moduleName": "KahfAdsIosSdk",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KahfAdsIosSdk.KahfAdsError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError",
+                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError(im)initWithCoder:",
+            "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError(im)encodeWithCoder:",
+            "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC6encode4withySo7NSCoderC_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "overriding": true,
+            "objc_name": "encodeWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "TypeDecl",
@@ -2500,6 +2610,57 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "className",
+                "printedName": "className",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C9classNameSSvpZ",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07NetworkE0C9classNameSSvpZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C9classNameSSvgZ",
+                    "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07NetworkE0C9classNameSSvgZ",
+                    "moduleName": "KahfAdsIosSdk",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:statusCode:underlyingError:)",
@@ -2557,37 +2718,6 @@
                 "init_kind": "Designated"
               },
               {
-                "kind": "Function",
-                "name": "encode",
-                "printedName": "encode(with:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSCoder",
-                    "printedName": "Foundation.NSCoder",
-                    "usr": "c:objc(cs)NSCoder"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C6encode4withySo7NSCoderC_tF",
-                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07NetworkE0C6encode4withySo7NSCoderC_tF",
-                "moduleName": "KahfAdsIosSdk",
-                "overriding": true,
-                "objc_name": "encodeWithCoder:",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
-                  "Override",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:underlyingError:)",
@@ -2624,6 +2754,128 @@
                 "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07NetworkE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "moduleName": "KahfAdsIosSdk",
+                "declAttributes": [
+                  "Convenience",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Convenience"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.NetworkError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "KahfAdsIosSdk.KahfAdsError.NetworkError",
+                        "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07NetworkE0C5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(with:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C6encode4withySo7NSCoderC_tF",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07NetworkE0C6encode4withySo7NSCoderC_tF",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "encodeWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(message:underlyingError:name:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.NetworkError",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07NetworkE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07NetworkE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "moduleName": "KahfAdsIosSdk",
                 "overriding": true,
                 "implicit": true,
                 "declAttributes": [
@@ -2642,7 +2894,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
-            "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "KahfAdsIosSdk.KahfAdsError",
               "Foundation.NSError",
@@ -2782,6 +3033,57 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "className",
+                "printedName": "className",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC06ServerE0C9classNameSSvpZ",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC06ServerE0C9classNameSSvpZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC06ServerE0C9classNameSSvgZ",
+                    "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC06ServerE0C9classNameSSvgZ",
+                    "moduleName": "KahfAdsIosSdk",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:statusCode:underlyingError:)",
@@ -2830,6 +3132,46 @@
                 "init_kind": "Designated"
               },
               {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.ServerError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerError",
+                        "printedName": "KahfAdsIosSdk.KahfAdsError.ServerError",
+                        "usr": "s:13KahfAdsIosSdk0aB5ErrorC06ServerE0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC06ServerE0C5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC06ServerE0C5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              },
+              {
                 "kind": "Function",
                 "name": "encode",
                 "printedName": "encode(with:)",
@@ -2863,7 +3205,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(message:underlyingError:)",
+                "printedName": "init(message:underlyingError:name:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2891,11 +3233,18 @@
                     ],
                     "hasDefaultArg": true,
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:13KahfAdsIosSdk0aB5ErrorC06ServerE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
-                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC06ServerE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC06ServerE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC06ServerE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
                 "moduleName": "KahfAdsIosSdk",
                 "overriding": true,
                 "implicit": true,
@@ -2915,7 +3264,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
-            "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "KahfAdsIosSdk.KahfAdsError",
               "Foundation.NSError",
@@ -3071,6 +3419,57 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "className",
+                "printedName": "className",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C9classNameSSvpZ",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C9classNameSSvpZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C9classNameSSvgZ",
+                    "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C9classNameSSvgZ",
+                    "moduleName": "KahfAdsIosSdk",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:adType:underlyingError:)",
@@ -3128,6 +3527,46 @@
                 "init_kind": "Designated"
               },
               {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.NoAdFoundError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NoAdFoundError",
+                        "printedName": "KahfAdsIosSdk.KahfAdsError.NoAdFoundError",
+                        "usr": "s:13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              },
+              {
                 "kind": "Function",
                 "name": "encode",
                 "printedName": "encode(with:)",
@@ -3161,7 +3600,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(message:underlyingError:)",
+                "printedName": "init(message:underlyingError:name:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3189,11 +3628,18 @@
                     ],
                     "hasDefaultArg": true,
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
-                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC09NoAdFoundE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
                 "moduleName": "KahfAdsIosSdk",
                 "overriding": true,
                 "implicit": true,
@@ -3213,7 +3659,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
-            "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "KahfAdsIosSdk.KahfAdsError",
               "Foundation.NSError",
@@ -3305,6 +3750,57 @@
             "printedName": "ConfigurationError",
             "children": [
               {
+                "kind": "Var",
+                "name": "className",
+                "printedName": "className",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C9classNameSSvpZ",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C9classNameSSvpZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C9classNameSSvgZ",
+                    "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C9classNameSSvgZ",
+                    "moduleName": "KahfAdsIosSdk",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:underlyingError:)",
@@ -3341,10 +3837,99 @@
                 "usr": "s:13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "moduleName": "KahfAdsIosSdk",
-                "overriding": true,
                 "declAttributes": [
-                  "Override",
                   "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.ConfigurationError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConfigurationError",
+                        "printedName": "KahfAdsIosSdk.KahfAdsError.ConfigurationError",
+                        "usr": "s:13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(message:underlyingError:name:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.ConfigurationError",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC013ConfigurationE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Override"
                 ],
                 "init_kind": "Designated"
               }
@@ -3359,8 +3944,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
-            "hasMissingDesignatedInitializers": true,
-            "inheritsConvenienceInitializers": true,
             "superclassNames": [
               "KahfAdsIosSdk.KahfAdsError",
               "Foundation.NSError",
@@ -3452,6 +4035,57 @@
             "printedName": "TimeoutError",
             "children": [
               {
+                "kind": "Var",
+                "name": "className",
+                "printedName": "className",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C9classNameSSvpZ",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C9classNameSSvpZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C9classNameSSvgZ",
+                    "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C9classNameSSvgZ",
+                    "moduleName": "KahfAdsIosSdk",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:underlyingError:)",
@@ -3488,10 +4122,99 @@
                 "usr": "s:13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "moduleName": "KahfAdsIosSdk",
-                "overriding": true,
                 "declAttributes": [
-                  "Override",
                   "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.TimeoutError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeoutError",
+                        "printedName": "KahfAdsIosSdk.KahfAdsError.TimeoutError",
+                        "usr": "s:13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(message:underlyingError:name:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeoutError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.TimeoutError",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07TimeoutE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Override"
                 ],
                 "init_kind": "Designated"
               }
@@ -3506,8 +4229,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
-            "hasMissingDesignatedInitializers": true,
-            "inheritsConvenienceInitializers": true,
             "superclassNames": [
               "KahfAdsIosSdk.KahfAdsError",
               "Foundation.NSError",
@@ -3663,6 +4384,57 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "className",
+                "printedName": "className",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C9classNameSSvpZ",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C9classNameSSvpZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C9classNameSSvgZ",
+                    "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C9classNameSSvgZ",
+                    "moduleName": "KahfAdsIosSdk",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:primaryAdError:)",
@@ -3705,6 +4477,46 @@
                 "init_kind": "Designated"
               },
               {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.FallbackAdError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FallbackAdError",
+                        "printedName": "KahfAdsIosSdk.KahfAdsError.FallbackAdError",
+                        "usr": "s:13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              },
+              {
                 "kind": "Function",
                 "name": "encode",
                 "printedName": "encode(with:)",
@@ -3738,7 +4550,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(message:underlyingError:)",
+                "printedName": "init(message:underlyingError:name:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3766,11 +4578,18 @@
                     ],
                     "hasDefaultArg": true,
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
-                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC010FallbackAdE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
                 "moduleName": "KahfAdsIosSdk",
                 "overriding": true,
                 "implicit": true,
@@ -3790,7 +4609,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
-            "hasMissingDesignatedInitializers": true,
             "superclassNames": [
               "KahfAdsIosSdk.KahfAdsError",
               "Foundation.NSError",
@@ -3882,6 +4700,57 @@
             "printedName": "UnknownError",
             "children": [
               {
+                "kind": "Var",
+                "name": "className",
+                "printedName": "className",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07UnknownE0C9classNameSSvpZ",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07UnknownE0C9classNameSSvpZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC07UnknownE0C9classNameSSvgZ",
+                    "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07UnknownE0C9classNameSSvgZ",
+                    "moduleName": "KahfAdsIosSdk",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(message:underlyingError:)",
@@ -3918,10 +4787,99 @@
                 "usr": "s:13KahfAdsIosSdk0aB5ErrorC07UnknownE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07UnknownE0C7message010underlyingE0AESS_s0E0_pSgtcfc",
                 "moduleName": "KahfAdsIosSdk",
-                "overriding": true,
                 "declAttributes": [
-                  "Override",
                   "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.UnknownError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnknownError",
+                        "printedName": "KahfAdsIosSdk.KahfAdsError.UnknownError",
+                        "usr": "s:13KahfAdsIosSdk0aB5ErrorC07UnknownE0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07UnknownE0C5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07UnknownE0C5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(message:underlyingError:name:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnknownError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError.UnknownError",
+                    "usr": "s:13KahfAdsIosSdk0aB5ErrorC07UnknownE0C"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13KahfAdsIosSdk0aB5ErrorC07UnknownE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC07UnknownE0C7message010underlyingE04nameAESS_s0E0_pSgSStcfc",
+                "moduleName": "KahfAdsIosSdk",
+                "overriding": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Override"
                 ],
                 "init_kind": "Designated"
               }
@@ -3936,8 +4894,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
-            "hasMissingDesignatedInitializers": true,
-            "inheritsConvenienceInitializers": true,
             "superclassNames": [
               "KahfAdsIosSdk.KahfAdsError",
               "Foundation.NSError",
@@ -4094,13 +5050,13 @@
         "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError",
         "mangledName": "$s13KahfAdsIosSdk0aB5ErrorC",
         "moduleName": "KahfAdsIosSdk",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSError",
-        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "Foundation.NSError",
           "ObjectiveC.NSObject"
@@ -4658,6 +5614,62 @@
       "offset": 245,
       "length": 6,
       "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 14,
+      "value": "\"KahfAdsError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 14,
+      "value": "\"NetworkError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 2747,
+      "length": 13,
+      "value": "\"ServerError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3540,
+      "length": 16,
+      "value": "\"NoAdFoundError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4292,
+      "length": 20,
+      "value": "\"ConfigurationError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4739,
+      "length": 14,
+      "value": "\"TimeoutError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5236,
+      "length": 17,
+      "value": "\"FallbackAdError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6009,
+      "length": 14,
+      "value": "\"UnknownError\""
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
