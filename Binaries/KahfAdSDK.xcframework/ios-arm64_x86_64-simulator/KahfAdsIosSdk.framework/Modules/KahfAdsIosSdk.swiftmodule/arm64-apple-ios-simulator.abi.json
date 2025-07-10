@@ -6,6 +6,235 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KMPNativeCoroutinesAsync",
+        "printedName": "KMPNativeCoroutinesAsync",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KahfAdsSdk",
+        "printedName": "KahfAdsSdk",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsSdk",
+                "printedName": "KahfAdsIosSdk.KahfAdsSdk",
+                "usr": "s:13KahfAdsIosSdk0abD0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0abD0C6sharedACvpZ",
+            "mangledName": "$s13KahfAdsIosSdk0abD0C6sharedACvpZ",
+            "moduleName": "KahfAdsIosSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsSdk",
+                    "printedName": "KahfAdsIosSdk.KahfAdsSdk",
+                    "usr": "s:13KahfAdsIosSdk0abD0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0abD0C6sharedACvgZ",
+                "mangledName": "$s13KahfAdsIosSdk0abD0C6sharedACvgZ",
+                "moduleName": "KahfAdsIosSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsSdkConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsSdkConfig",
+                "usr": "s:13KahfAdsIosSdk0abD6ConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tF",
+            "mangledName": "$s13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isSdkInitialized",
+            "printedName": "isSdkInitialized()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk0abD0C02isD11InitializedSbyF",
+            "mangledName": "$s13KahfAdsIosSdk0abD0C02isD11InitializedSbyF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13KahfAdsIosSdk0abD0C",
+        "mangledName": "$s13KahfAdsIosSdk0abD0C",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "declKind": "Class",
+        "usr": "s:13KahfAdsIosSdk6LoggerC",
+        "mangledName": "$s13KahfAdsIosSdk6LoggerC",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1944,6 +2173,94 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "screenName",
+            "printedName": "screenName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvp",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvg",
+                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placementId",
+            "printedName": "placementId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementId",
+                "printedName": "KahfAdsIosSdk.PlacementId",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovp",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlacementId",
+                    "printedName": "KahfAdsIosSdk.PlacementId",
+                    "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovg",
+                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Constructor",
@@ -4077,235 +4394,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KMPNativeCoroutinesAsync",
-        "printedName": "KMPNativeCoroutinesAsync",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "KahfAdsSdk",
-        "printedName": "KahfAdsSdk",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsSdk",
-                "printedName": "KahfAdsIosSdk.KahfAdsSdk",
-                "usr": "s:13KahfAdsIosSdk0abD0C"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk0abD0C6sharedACvpZ",
-            "mangledName": "$s13KahfAdsIosSdk0abD0C6sharedACvpZ",
-            "moduleName": "KahfAdsIosSdk",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KahfAdsSdk",
-                    "printedName": "KahfAdsIosSdk.KahfAdsSdk",
-                    "usr": "s:13KahfAdsIosSdk0abD0C"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk0abD0C6sharedACvgZ",
-                "mangledName": "$s13KahfAdsIosSdk0abD0C6sharedACvgZ",
-                "moduleName": "KahfAdsIosSdk",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize(config:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsSdkConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsSdkConfig",
-                "usr": "s:13KahfAdsIosSdk0abD6ConfigV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tF",
-            "mangledName": "$s13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tF",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isSdkInitialized",
-            "printedName": "isSdkInitialized()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk0abD0C02isD11InitializedSbyF",
-            "mangledName": "$s13KahfAdsIosSdk0abD0C02isD11InitializedSbyF",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:13KahfAdsIosSdk0abD0C",
-        "mangledName": "$s13KahfAdsIosSdk0abD0C",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Logger",
-        "printedName": "Logger",
-        "declKind": "Class",
-        "usr": "s:13KahfAdsIosSdk6LoggerC",
-        "mangledName": "$s13KahfAdsIosSdk6LoggerC",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
@@ -4453,6 +4541,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "30000"
+    },
+    {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
       "kind": "BooleanLiteral",
       "offset": 3880,
@@ -4549,20 +4651,6 @@
       "offset": 245,
       "length": 6,
       "value": "10000"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 488,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
-      "kind": "IntegerLiteral",
-      "offset": 533,
-      "length": 5,
-      "value": "30000"
     }
   ]
 }

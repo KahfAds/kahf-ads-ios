@@ -10,6 +10,18 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class KahfAdsSdk {
+  public static let shared: KahfAdsIosSdk.KahfAdsSdk
+  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
+  public func isSdkInitialized() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  @objc deinit
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
 @_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
   @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
@@ -75,6 +87,8 @@ public struct KahfAdsSdkConfig {
 }
 public struct KahfAdsViewConfig : Swift.Hashable {
   public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
+  public let screenName: Swift.String
+  public let placementId: KahfAdsIosSdk.PlacementId
   public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil)
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -122,18 +136,6 @@ public struct KahfAdsViewConfig : Swift.Hashable {
     @objc deinit
   }
   @objc deinit
-}
-@_hasMissingDesignatedInitializers public class KahfAdsSdk {
-  public static let shared: KahfAdsIosSdk.KahfAdsSdk
-  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
-  public func isSdkInitialized() -> Swift.Bool
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Logger {
-  @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
 }
 extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}
