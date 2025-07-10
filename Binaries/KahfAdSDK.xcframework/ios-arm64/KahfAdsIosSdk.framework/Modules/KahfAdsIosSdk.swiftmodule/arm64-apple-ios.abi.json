@@ -6,16 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1692,6 +1682,27 @@
             "usr": "s:13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
             "mangledName": "$s13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
             "moduleName": "KahfAdsIosSdk"
+          },
+          {
+            "kind": "Function",
+            "name": "id",
+            "printedName": "id()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO2idSSyF",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO2idSSyF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -4391,6 +4402,16 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
