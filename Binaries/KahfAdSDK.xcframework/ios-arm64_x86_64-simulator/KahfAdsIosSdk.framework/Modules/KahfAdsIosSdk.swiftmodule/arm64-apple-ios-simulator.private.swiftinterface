@@ -10,6 +10,57 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
+  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
+}
+public protocol AdImpressionListener {
+  func onAdLoaded()
+  func onAdClicked(urlToLoad: Swift.String) -> Swift.Bool
+  func onAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
+}
+public protocol FallbackAdImpressionListener {
+  func onFallbackAdLoaded(primaryAdError: KahfAdsIosSdk.KahfAdsError?, headline: Swift.String)
+  func onFallbackAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
+  func onFallbackAdClicked(urlToLoad: Swift.String) -> Swift.Bool
+}
+extension KahfAdsIosSdk.AdImpressionListener {
+  public func onAdLoaded()
+  public func onAdClicked(urlToLoad: Swift.String) -> Swift.Bool
+  public func onAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
+}
+extension KahfAdsIosSdk.FallbackAdImpressionListener {
+  public func onFallbackAdLoaded(primaryAdError: KahfAdsIosSdk.KahfAdsError?, headline: Swift.String)
+  public func onFallbackAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
+  public func onFallbackAdClicked(urlToLoad: Swift.String) -> Swift.Bool
+}
+@_Concurrency.MainActor @preconcurrency public struct SmallBannerAdView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct MediumBannerAdView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct LargeBannerAdView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp", 0) __
+}
 public enum PlacementId : Swift.Hashable {
   case Epom(Swift.String)
   case Inhouse(Swift.String)
@@ -104,57 +155,6 @@ public struct KahfAdsViewConfig : Swift.Hashable {
 }
 extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
-}
-@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
-  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
-}
-public protocol AdImpressionListener {
-  func onAdLoaded()
-  func onAdClicked(urlToLoad: Swift.String) -> Swift.Bool
-  func onAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
-}
-public protocol FallbackAdImpressionListener {
-  func onFallbackAdLoaded(primaryAdError: KahfAdsIosSdk.KahfAdsError?, headline: Swift.String)
-  func onFallbackAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
-  func onFallbackAdClicked(urlToLoad: Swift.String) -> Swift.Bool
-}
-extension KahfAdsIosSdk.AdImpressionListener {
-  public func onAdLoaded()
-  public func onAdClicked(urlToLoad: Swift.String) -> Swift.Bool
-  public func onAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
-}
-extension KahfAdsIosSdk.FallbackAdImpressionListener {
-  public func onFallbackAdLoaded(primaryAdError: KahfAdsIosSdk.KahfAdsError?, headline: Swift.String)
-  public func onFallbackAdFailedToLoad(message: Swift.String, cause: KahfAdsIosSdk.KahfAdsError?)
-  public func onFallbackAdClicked(urlToLoad: Swift.String) -> Swift.Bool
-}
-@_Concurrency.MainActor @preconcurrency public struct SmallBannerAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor @preconcurrency public struct MediumBannerAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor @preconcurrency public struct LargeBannerAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp", 0) __
 }
 extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}

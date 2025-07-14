@@ -6,6 +6,1560 @@
     "children": [
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Nuke",
+        "printedName": "Nuke",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NukeUI",
+        "printedName": "NukeUI",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Gifu",
+        "printedName": "Gifu",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AsyncAnimatedImage",
+        "printedName": "AsyncAnimatedImage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "placeholder",
+            "printedName": "placeholder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvp",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvg",
+                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onSuccess",
+            "printedName": "onSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvp",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvg",
+                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onFailure",
+            "printedName": "onFailure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvp",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvg",
+                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(base64Data:url:placeholder:onSuccess:onFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncAnimatedImage",
+                "printedName": "KahfAdsIosSdk.AsyncAnimatedImage",
+                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder9onSuccess0L7FailureAC10Foundation0I0VSg_AI3URLVSg7SwiftUI7AnyViewVyycSgys5Error_pcSgtcfc",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder9onSuccess0L7FailureAC10Foundation0I0VSg_AI3URLVSg7SwiftUI7AnyViewVyycSgys5Error_pcSgtcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvg",
+                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvg",
+                "moduleName": "KahfAdsIosSdk",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV",
+        "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdImpressionListener",
+        "printedName": "AdImpressionListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onAdLoaded",
+            "printedName": "onAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP02onE6LoadedyyF",
+            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP02onE6LoadedyyF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdClicked",
+            "printedName": "onAdClicked(urlToLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP02onE7Clicked9urlToLoadSbSS_tF",
+            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP02onE7Clicked9urlToLoadSbSS_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdFailedToLoad",
+            "printedName": "onAdFailedToLoad(message:cause:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KahfAdsIosSdk.KahfAdsError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError",
+                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdLoaded",
+            "printedName": "onAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerPAAE02onE6LoadedyyF",
+            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerPAAE02onE6LoadedyyF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdClicked",
+            "printedName": "onAdClicked(urlToLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerPAAE02onE7Clicked9urlToLoadSbSS_tF",
+            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerPAAE02onE7Clicked9urlToLoadSbSS_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdFailedToLoad",
+            "printedName": "onAdFailedToLoad(message:cause:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KahfAdsIosSdk.KahfAdsError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError",
+                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerPAAE02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerPAAE02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP",
+        "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FallbackAdImpressionListener",
+        "printedName": "FallbackAdImpressionListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onFallbackAdLoaded",
+            "printedName": "onFallbackAdLoaded(primaryAdError:headline:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KahfAdsIosSdk.KahfAdsError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError",
+                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
+            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFallbackAdFailedToLoad",
+            "printedName": "onFallbackAdFailedToLoad(message:cause:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KahfAdsIosSdk.KahfAdsError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError",
+                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFallbackAdClicked",
+            "printedName": "onFallbackAdClicked(urlToLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF7Clicked9urlToLoadSbSS_tF",
+            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF7Clicked9urlToLoadSbSS_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFallbackAdLoaded",
+            "printedName": "onFallbackAdLoaded(primaryAdError:headline:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KahfAdsIosSdk.KahfAdsError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError",
+                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
+            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFallbackAdFailedToLoad",
+            "printedName": "onFallbackAdFailedToLoad(message:cause:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KahfAdsIosSdk.KahfAdsError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KahfAdsError",
+                    "printedName": "KahfAdsIosSdk.KahfAdsError",
+                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFallbackAdClicked",
+            "printedName": "onFallbackAdClicked(urlToLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF7Clicked9urlToLoadSbSS_tF",
+            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF7Clicked9urlToLoadSbSS_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP",
+        "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmallBannerAdView",
+        "printedName": "SmallBannerAdView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewConfig:adImpressionListener:fallbackAdImpressionListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmallBannerAdView",
+                "printedName": "KahfAdsIosSdk.SmallBannerAdView",
+                "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any KahfAdsIosSdk.AdImpressionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdImpressionListener",
+                    "printedName": "any KahfAdsIosSdk.AdImpressionListener",
+                    "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any KahfAdsIosSdk.FallbackAdImpressionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FallbackAdImpressionListener",
+                    "printedName": "any KahfAdsIosSdk.FallbackAdImpressionListener",
+                    "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
+            "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvp",
+            "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvg",
+                "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvg",
+                "moduleName": "KahfAdsIosSdk",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV",
+        "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediumBannerAdView",
+        "printedName": "MediumBannerAdView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewConfig:adImpressionListener:fallbackAdImpressionListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MediumBannerAdView",
+                "printedName": "KahfAdsIosSdk.MediumBannerAdView",
+                "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any KahfAdsIosSdk.AdImpressionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdImpressionListener",
+                    "printedName": "any KahfAdsIosSdk.AdImpressionListener",
+                    "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any KahfAdsIosSdk.FallbackAdImpressionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FallbackAdImpressionListener",
+                    "printedName": "any KahfAdsIosSdk.FallbackAdImpressionListener",
+                    "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
+            "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvp",
+            "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvg",
+                "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvg",
+                "moduleName": "KahfAdsIosSdk",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV",
+        "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LargeBannerAdView",
+        "printedName": "LargeBannerAdView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewConfig:adImpressionListener:fallbackAdImpressionListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LargeBannerAdView",
+                "printedName": "KahfAdsIosSdk.LargeBannerAdView",
+                "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any KahfAdsIosSdk.AdImpressionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdImpressionListener",
+                    "printedName": "any KahfAdsIosSdk.AdImpressionListener",
+                    "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any KahfAdsIosSdk.FallbackAdImpressionListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FallbackAdImpressionListener",
+                    "printedName": "any KahfAdsIosSdk.FallbackAdImpressionListener",
+                    "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
+            "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp",
+            "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvg",
+                "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvg",
+                "moduleName": "KahfAdsIosSdk",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV",
+        "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3817,1560 +5371,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "Nuke",
-        "printedName": "Nuke",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NukeUI",
-        "printedName": "NukeUI",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Gifu",
-        "printedName": "Gifu",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AsyncAnimatedImage",
-        "printedName": "AsyncAnimatedImage",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "placeholder",
-            "printedName": "placeholder",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyView",
-                "printedName": "SwiftUI.AnyView",
-                "usr": "s:7SwiftUI7AnyViewV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvp",
-            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyView",
-                    "printedName": "SwiftUI.AnyView",
-                    "usr": "s:7SwiftUI7AnyViewV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvg",
-                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV11placeholder7SwiftUI7AnyViewVvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onSuccess",
-            "printedName": "onSuccess",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvp",
-            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvg",
-                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onSuccessyycSgvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onFailure",
-            "printedName": "onFailure",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvp",
-            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((any Swift.Error) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(any Swift.Error) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "any Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvg",
-                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV9onFailureys5Error_pcSgvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(base64Data:url:placeholder:onSuccess:onFailure:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AsyncAnimatedImage",
-                "printedName": "KahfAdsIosSdk.AsyncAnimatedImage",
-                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AnyView",
-                "printedName": "SwiftUI.AnyView",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI7AnyViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder9onSuccess0L7FailureAC10Foundation0I0VSg_AI3URLVSg7SwiftUI7AnyViewVyycSgys5Error_pcSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder9onSuccess0L7FailureAC10Foundation0I0VSg_AI3URLVSg7SwiftUI7AnyViewVyycSgys5Error_pcSgtcfc",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp",
-            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvg",
-                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvg",
-                "moduleName": "KahfAdsIosSdk",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV",
-        "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdImpressionListener",
-        "printedName": "AdImpressionListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onAdLoaded",
-            "printedName": "onAdLoaded()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP02onE6LoadedyyF",
-            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP02onE6LoadedyyF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdClicked",
-            "printedName": "onAdClicked(urlToLoad:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP02onE7Clicked9urlToLoadSbSS_tF",
-            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP02onE7Clicked9urlToLoadSbSS_tF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdFailedToLoad",
-            "printedName": "onAdFailedToLoad(message:cause:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "KahfAdsIosSdk.KahfAdsError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KahfAdsError",
-                    "printedName": "KahfAdsIosSdk.KahfAdsError",
-                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdLoaded",
-            "printedName": "onAdLoaded()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerPAAE02onE6LoadedyyF",
-            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerPAAE02onE6LoadedyyF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdClicked",
-            "printedName": "onAdClicked(urlToLoad:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerPAAE02onE7Clicked9urlToLoadSbSS_tF",
-            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerPAAE02onE7Clicked9urlToLoadSbSS_tF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdFailedToLoad",
-            "printedName": "onAdFailedToLoad(message:cause:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "KahfAdsIosSdk.KahfAdsError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KahfAdsError",
-                    "printedName": "KahfAdsIosSdk.KahfAdsError",
-                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk20AdImpressionListenerPAAE02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerPAAE02onE12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdImpressionListener>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP",
-        "mangledName": "$s13KahfAdsIosSdk20AdImpressionListenerP",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FallbackAdImpressionListener",
-        "printedName": "FallbackAdImpressionListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onFallbackAdLoaded",
-            "printedName": "onFallbackAdLoaded(primaryAdError:headline:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "KahfAdsIosSdk.KahfAdsError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KahfAdsError",
-                    "printedName": "KahfAdsIosSdk.KahfAdsError",
-                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
-            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onFallbackAdFailedToLoad",
-            "printedName": "onFallbackAdFailedToLoad(message:cause:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "KahfAdsIosSdk.KahfAdsError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KahfAdsError",
-                    "printedName": "KahfAdsIosSdk.KahfAdsError",
-                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onFallbackAdClicked",
-            "printedName": "onFallbackAdClicked(urlToLoad:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF7Clicked9urlToLoadSbSS_tF",
-            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP02oneF7Clicked9urlToLoadSbSS_tF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onFallbackAdLoaded",
-            "printedName": "onFallbackAdLoaded(primaryAdError:headline:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "KahfAdsIosSdk.KahfAdsError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KahfAdsError",
-                    "printedName": "KahfAdsIosSdk.KahfAdsError",
-                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
-            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF6Loaded07primaryF5Error8headlineyAA0abL0CSg_SStF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onFallbackAdFailedToLoad",
-            "printedName": "onFallbackAdFailedToLoad(message:cause:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "KahfAdsIosSdk.KahfAdsError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KahfAdsError",
-                    "printedName": "KahfAdsIosSdk.KahfAdsError",
-                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfAdsError"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF12FailedToLoad7message5causeySS_AA0aB5ErrorCSgtF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onFallbackAdClicked",
-            "printedName": "onFallbackAdClicked(urlToLoad:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF7Clicked9urlToLoadSbSS_tF",
-            "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerPAAE02oneF7Clicked9urlToLoadSbSS_tF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.FallbackAdImpressionListener>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP",
-        "mangledName": "$s13KahfAdsIosSdk28FallbackAdImpressionListenerP",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SmallBannerAdView",
-        "printedName": "SmallBannerAdView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(viewConfig:adImpressionListener:fallbackAdImpressionListener:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SmallBannerAdView",
-                "printedName": "KahfAdsIosSdk.SmallBannerAdView",
-                "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsViewConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any KahfAdsIosSdk.AdImpressionListener)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdImpressionListener",
-                    "printedName": "any KahfAdsIosSdk.AdImpressionListener",
-                    "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any KahfAdsIosSdk.FallbackAdImpressionListener)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FallbackAdImpressionListener",
-                    "printedName": "any KahfAdsIosSdk.FallbackAdImpressionListener",
-                    "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvp",
-            "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvg",
-                "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvg",
-                "moduleName": "KahfAdsIosSdk",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13KahfAdsIosSdk17SmallBannerAdViewV",
-        "mangledName": "$s13KahfAdsIosSdk17SmallBannerAdViewV",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MediumBannerAdView",
-        "printedName": "MediumBannerAdView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(viewConfig:adImpressionListener:fallbackAdImpressionListener:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MediumBannerAdView",
-                "printedName": "KahfAdsIosSdk.MediumBannerAdView",
-                "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsViewConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any KahfAdsIosSdk.AdImpressionListener)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdImpressionListener",
-                    "printedName": "any KahfAdsIosSdk.AdImpressionListener",
-                    "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any KahfAdsIosSdk.FallbackAdImpressionListener)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FallbackAdImpressionListener",
-                    "printedName": "any KahfAdsIosSdk.FallbackAdImpressionListener",
-                    "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvp",
-            "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvg",
-                "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvg",
-                "moduleName": "KahfAdsIosSdk",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13KahfAdsIosSdk18MediumBannerAdViewV",
-        "mangledName": "$s13KahfAdsIosSdk18MediumBannerAdViewV",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LargeBannerAdView",
-        "printedName": "LargeBannerAdView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(viewConfig:adImpressionListener:fallbackAdImpressionListener:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LargeBannerAdView",
-                "printedName": "KahfAdsIosSdk.LargeBannerAdView",
-                "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsViewConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any KahfAdsIosSdk.AdImpressionListener)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdImpressionListener",
-                    "printedName": "any KahfAdsIosSdk.AdImpressionListener",
-                    "usr": "s:13KahfAdsIosSdk20AdImpressionListenerP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any KahfAdsIosSdk.FallbackAdImpressionListener)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FallbackAdImpressionListener",
-                    "printedName": "any KahfAdsIosSdk.FallbackAdImpressionListener",
-                    "usr": "s:13KahfAdsIosSdk28FallbackAdImpressionListenerP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV10viewConfig20adImpressionListener08fallbackglM0AcA0abhJ0V_AA0glM0_pSgAA08FallbackglM0_pSgtcfc",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp",
-            "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvg",
-                "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvg",
-                "moduleName": "KahfAdsIosSdk",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13KahfAdsIosSdk17LargeBannerAdViewV",
-        "mangledName": "$s13KahfAdsIosSdk17LargeBannerAdViewV",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
@@ -5518,83 +5518,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 6,
-      "value": "10000"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 484,
-      "length": 14,
-      "value": "\"KahfAdsError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 1690,
-      "length": 14,
-      "value": "\"NetworkError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 2747,
-      "length": 13,
-      "value": "\"ServerError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 3540,
-      "length": 16,
-      "value": "\"NoAdFoundError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 4292,
-      "length": 20,
-      "value": "\"ConfigurationError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 4739,
-      "length": 14,
-      "value": "\"TimeoutError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 5236,
-      "length": 17,
-      "value": "\"FallbackAdError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
-      "kind": "StringLiteral",
-      "offset": 6009,
-      "length": 14,
-      "value": "\"UnknownError\""
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 488,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
-      "kind": "IntegerLiteral",
-      "offset": 533,
-      "length": 5,
-      "value": "30000"
-    },
-    {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
       "kind": "BooleanLiteral",
       "offset": 3880,
@@ -5684,6 +5607,83 @@
       "offset": 52564,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 6,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 14,
+      "value": "\"KahfAdsError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 14,
+      "value": "\"NetworkError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 2747,
+      "length": 13,
+      "value": "\"ServerError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3540,
+      "length": 16,
+      "value": "\"NoAdFoundError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4292,
+      "length": 20,
+      "value": "\"ConfigurationError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4739,
+      "length": 14,
+      "value": "\"TimeoutError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5236,
+      "length": 17,
+      "value": "\"FallbackAdError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6009,
+      "length": 14,
+      "value": "\"UnknownError\""
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "30000"
     }
   ]
 }
