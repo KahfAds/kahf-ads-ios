@@ -7,136 +7,104 @@ The `KahfAdProvider` is a lightweight ad management utility designed to integrat
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Public API](#public-api)
-  - [KahfAdProvider](#KahfAdprovider)
-  - [KahfAdConfig](#KahfAdconfig)
-  - [KahfAdType](#KahfAdtype)
-  - [KahfAdListener](#KahfAdlistener)
-  - [KahfAdDelegate](#KahfAddelegate)
+ - [Usage](#usage)
+   - [Step 1: Initialize SDK in AppDelegate](#step-1-initialize-sdk-in-appdelegate)
+   - [Step 2: Use Banner Ad Views in SwiftUI](#step-2-use-banner-ad-views-in-swiftui)
+   - [Step 3: Implement Ad Impression Listeners](#step-3-implement-ad-impression-listeners)
 
 ---
 
 ## Installation
 
-Add the SDK to your project using **Swift Package Manager** or manually integrate the source files into your project.
+You can add the SDK via **Swift Package Manager** or manually:
+
+### Swift Package Manager (Recommended)
+
+1. In Xcode, go to `File > Add Packages`.
+2. Enter the package URL: `https://github.com/KahfAds/kahf-ads-ios.git`
+3. Choose the latest version (1.0.4-beta04) and finish the setup.
 
 ---
 
 ## Usage
 
-Initialize the SDK in `AppDelegate`:
+### Step 1: Initialize SDK in AppDelegate
 
 ```swift
-KahfAdProvider.shared.initialize(withToken: "YOUR_PUBLISHER_ID")
+import UIKit
+import KahfAdsIosSdk
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
+    ) -> Bool {
+        // ... other code...
+        
+        KahfAdsSdk.shared.initialize(config: KahfAdsSdkConfig(fallbackPublisherId: "muslims-day"))
+        return true
+    }
+}
 ```
 
-Render an ad view in SwiftUI:
+### Step 2: Use Banner Ad Views in SwiftUI
 
 ```swift
-let config = KahfAdConfig(adType: .BANNER_AD, divId: "home_banner", screenName: "HomeView")
-KahfAdProvider.shared.getView(for: config)
+import KahfAdsIosSdk
+
+LargeBannerAdView(
+    viewConfig: KahfAdsViewConfig(
+        screenName: "<SCREEN_OR_ELEMENT_NAME>",
+        placementId: .Epom("<YOUR_PLACEMENT_ID>"),
+        refreshIntervalInMillis: 30000  // Minimum can be 10 seconds
+    ),
+    adImpressionListener: AdImpressionListenerImpl(),
+    fallbackAdImpressionListener: FallbackAdImpressionListenerImpl()
+)
 ```
 
----
+Supported views:
+- `LargeBannerAdView`
+- `MediumBannerAdView`
+- `SmallBannerAdView`
 
-## Public API
-
-### KahfAdProvider
+### Step 3: Implement Ad Impression Listeners
 
 ```swift
-final public class KahfAdProvider: ObservableObject
+class AdImpressionListenerImpl: AdImpressionListener {
+    func onAdClicked(urlToLoad: String) -> Bool {
+        print("Ad clicked with URL: \(urlToLoad)")
+        return false  // Return false if you want the click to be handled by the SDK
+    }
+
+    func onAdFailedToLoad(message: String, cause: KahfAdsError?) {
+        if let cause = cause {
+            print("Error details: \(cause)")
+        }
+    }
+
+    func onAdLoaded() {
+        print("Ad loaded successfully.")
+    }
+}
+
+class FallbackAdImpressionListenerImpl: FallbackAdImpressionListener {
+    func onFallbackAdClicked(urlToLoad: String) -> Bool {
+        print("Fallback Ad clicked with URL: \(urlToLoad)")
+        return false  // Return false if you want the click to be handled by the SDK
+    }
+
+    func onFallbackAdFailedToLoad(message: String, cause: KahfAdsError?) {
+        if let cause = cause {
+            print("Error details: \(cause)")
+        }
+    }
+
+    func onFallbackAdLoaded(primaryAdError: KahfAdsError?, headline: String) {
+        if let primaryError = primaryAdError {
+            print("Primary ad error: \(primaryError)")
+        }
+    }
+}
 ```
-
-Singleton class that manages ad lifecycle and rendering.
-
-#### Properties
-
-- `delegate: KahfAdDelegate?`: Optional delegate for ad events. **Do not use with `listener`.**
-- `listener: CurrentValueSubject<KahfAdListener?, Never>`: Reactive listener for ad events. **Do not use with `delegate`.**
-- `setAdClickListener: ((_ url: String?) -> Void)?`: Closure invoked when an ad is clicked.
-
-#### Methods
-
-- `func initialize(withToken: String, campaignTypes: String = "paid|publisher-house|community|house")`: Initializes the SDK with the provided token and optional campaign types.
-
-- `@ViewBuilder func getView(for config: KahfAdConfig) -> some View`: Returns a SwiftUI view representing the ad.
-
-- `func refreshAd(for config: KahfAdConfig, startAutoRefresh: Bool = true)`: Manually refreshes an ad and optionally restarts auto-refresh.
-
-- `func stopAutoRefresh(for config: KahfAdConfig)`: Stops auto-refresh for a given ad configuration.
-
----
-
-### KahfAdConfig
-
-```swift
-public struct KahfAdConfig
-```
-
-Configuration object used to request and render ads.
-
-#### Initializer
-
-```swift
-init(adType: KahfAdType, divId: String, screenName: String, autoHide: Bool = true)
-```
-
-- `adType`: The type of ad to be displayed.
-- `divId`: An identifier for the ad slot.
-- `screenName`: Identifier for the screen where the ad appears.
-- `autoHide`: If `true`, hides the ad view when it's not available (default is `true`). If `false`, it will show a placeholder for unavailable ads.
-
----
-
-### KahfAdType
-
-```swift
-public enum KahfAdType: String
-```
-
-Represents types of ads supported by the SDK.
-
-- `.BANNER_AD`
-- `.VIDEO_FEED_AD`
-- `.VIDEO_SHORTS_AD`
-
----
-
-### KahfAdListener
-
-```swift
-public enum KahfAdListener
-```
-
-Represents ad events when using `listener`.
-
-- `.onAdLoaded`
-- `.onAdFailedToLoad(message: String?)`
-- `.onAdClicked`
-
----
-
-### KahfAdDelegate
-
-```swift
-public protocol KahfAdDelegate: AnyObject
-```
-
-Delegate interface for receiving ad events.
-
-```swift
-func onAdLoaded()
-func onAdFailedToLoad(message: String?)
-func onAdClicked()
-```
-
----
-
-## Best Practices
-
-- Use **either** `delegate` or `listener`, **not both**.
-- Always call `stopAutoRefresh(for:)` when your ad view disappears to avoid memory leaks or unintended refreshes.
-- Provide a valid `setAdClickListener` implementation if you want to handle ad click URLs inside your app.
-
----
