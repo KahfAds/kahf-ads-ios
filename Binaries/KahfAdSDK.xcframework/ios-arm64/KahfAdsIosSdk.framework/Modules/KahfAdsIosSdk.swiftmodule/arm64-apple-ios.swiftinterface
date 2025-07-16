@@ -10,6 +10,16 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
+  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
+}
 public protocol AdImpressionListener {
   func onAdLoaded()
   func onAdClicked(urlToLoad: Swift.String) -> Swift.Bool
@@ -146,17 +156,7 @@ public struct KahfAdsViewConfig : Swift.Hashable {
 extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
 }
-@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
-  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
-}
+extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}
 extension KahfAdsIosSdk.MediumBannerAdView : Swift.Sendable {}
 extension KahfAdsIosSdk.LargeBannerAdView : Swift.Sendable {}
-extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
