@@ -10,18 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class KahfAdsSdk {
-  public static let shared: KahfAdsIosSdk.KahfAdsSdk
-  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
-  public func isSdkInitialized() -> Swift.Bool
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Logger {
-  @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
-}
 @_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
   @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
@@ -73,6 +61,30 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk17LargeBannerAdViewV4bodyQrvp", 0) __
 }
+@objc @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@_Concurrency.MainActor @preconcurrency public class KahfSmallBannerAdUIView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@_Concurrency.MainActor @preconcurrency public class KahfMediumBannerAdUIView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@_Concurrency.MainActor @preconcurrency public class KahfLargeBannerAdUIView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
 public enum PlacementId : Swift.Hashable {
   case Epom(Swift.String)
   case Inhouse(Swift.String)
@@ -90,7 +102,7 @@ public struct KahfAdsViewConfig : Swift.Hashable {
   public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
   public let screenName: Swift.String
   public let placementId: KahfAdsIosSdk.PlacementId
-  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil)
+  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil)
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -155,6 +167,18 @@ public struct KahfAdsViewConfig : Swift.Hashable {
     @objc deinit
   }
   @objc deinit
+}
+@_hasMissingDesignatedInitializers public class KahfAdsSdk {
+  public static let shared: KahfAdsIosSdk.KahfAdsSdk
+  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
+  public func isSdkInitialized() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  @objc deinit
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
 }
 extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}
