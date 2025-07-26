@@ -31,7 +31,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KahfAdSDK",
-            path: "Binaries/KahfAdSDK.xcframework",
+            path: "Binaries/KahfAdsIosSdk.xcframework",
         ),
 
     ]
