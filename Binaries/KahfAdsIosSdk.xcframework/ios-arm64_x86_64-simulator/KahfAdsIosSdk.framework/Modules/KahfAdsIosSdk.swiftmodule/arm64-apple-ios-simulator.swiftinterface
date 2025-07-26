@@ -10,88 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc open class KahfAdsError : Foundation.NSError, @unchecked Swift.Sendable {
-  final public let message: Swift.String
-  final public let underlyingError: (any Swift.Error)?
-  final public let name: Swift.String
-  public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil, name: Swift.String = "KahfAdsError")
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc override dynamic public func encode(with coder: Foundation.NSCoder)
-  @objc public class NetworkError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
-    final public let statusCode: Swift.Int?
-    public static let className: Swift.String
-    public init(message: Swift.String, statusCode: Swift.Int? = nil, underlyingError: (any Swift.Error)? = nil)
-    convenience public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
-    @objc required dynamic public init?(coder: Foundation.NSCoder)
-    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
-    @objc deinit
-  }
-  @objc public class ServerError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
-    final public let statusCode: Swift.Int
-    public static let className: Swift.String
-    public init(message: Swift.String, statusCode: Swift.Int, underlyingError: (any Swift.Error)? = nil)
-    @objc required dynamic public init?(coder: Foundation.NSCoder)
-    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
-    @objc deinit
-  }
-  @objc public class NoAdFoundError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
-    final public let adType: Swift.String?
-    public static let className: Swift.String
-    public init(message: Swift.String, adType: Swift.String? = nil, underlyingError: (any Swift.Error)? = nil)
-    @objc required dynamic public init?(coder: Foundation.NSCoder)
-    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
-    @objc deinit
-  }
-  @objc public class ConfigurationError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
-    public static let className: Swift.String
-    public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
-    @objc required dynamic public init?(coder: Foundation.NSCoder)
-    @objc deinit
-  }
-  @objc public class TimeoutError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
-    public static let className: Swift.String
-    public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
-    @objc required dynamic public init?(coder: Foundation.NSCoder)
-    @objc deinit
-  }
-  @objc public class FallbackAdError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
-    final public let primaryAdError: KahfAdsIosSdk.KahfAdsError?
-    public static let className: Swift.String
-    public init(message: Swift.String, primaryAdError: KahfAdsIosSdk.KahfAdsError? = nil)
-    @objc required dynamic public init?(coder: Foundation.NSCoder)
-    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
-    @objc deinit
-  }
-  @objc public class UnknownError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
-    public static let className: Swift.String
-    public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
-    @objc required dynamic public init?(coder: Foundation.NSCoder)
-    @objc deinit
-  }
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class KahfAdsSdk {
-  public static let shared: KahfAdsIosSdk.KahfAdsSdk
-  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
-  public func isSdkInitialized() -> Swift.Bool
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Logger {
-  @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
-}
-@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
-  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
-}
 public protocol AdImpressionListener {
   func onAdLoaded()
   func onAdClicked(urlToLoad: Swift.String) -> Swift.Bool
@@ -180,7 +98,89 @@ public struct KahfAdsViewConfig : Swift.Hashable {
     get
   }
 }
-extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
+@objc open class KahfAdsError : Foundation.NSError, @unchecked Swift.Sendable {
+  final public let message: Swift.String
+  final public let underlyingError: (any Swift.Error)?
+  final public let name: Swift.String
+  public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil, name: Swift.String = "KahfAdsError")
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc override dynamic public func encode(with coder: Foundation.NSCoder)
+  @objc public class NetworkError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
+    final public let statusCode: Swift.Int?
+    public static let className: Swift.String
+    public init(message: Swift.String, statusCode: Swift.Int? = nil, underlyingError: (any Swift.Error)? = nil)
+    convenience public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
+    @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @objc public class ServerError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
+    final public let statusCode: Swift.Int
+    public static let className: Swift.String
+    public init(message: Swift.String, statusCode: Swift.Int, underlyingError: (any Swift.Error)? = nil)
+    @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @objc public class NoAdFoundError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
+    final public let adType: Swift.String?
+    public static let className: Swift.String
+    public init(message: Swift.String, adType: Swift.String? = nil, underlyingError: (any Swift.Error)? = nil)
+    @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @objc public class ConfigurationError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
+    public static let className: Swift.String
+    public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
+    @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @objc public class TimeoutError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
+    public static let className: Swift.String
+    public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
+    @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @objc public class FallbackAdError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
+    final public let primaryAdError: KahfAdsIosSdk.KahfAdsError?
+    public static let className: Swift.String
+    public init(message: Swift.String, primaryAdError: KahfAdsIosSdk.KahfAdsError? = nil)
+    @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc override dynamic public func encode(with coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @objc public class UnknownError : KahfAdsIosSdk.KahfAdsError, @unchecked Swift.Sendable {
+    public static let className: Swift.String
+    public init(message: Swift.String, underlyingError: (any Swift.Error)? = nil)
+    @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class KahfAdsSdk {
+  public static let shared: KahfAdsIosSdk.KahfAdsSdk
+  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig) throws
+  public func isSdkInitialized() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  @objc deinit
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
+@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
+  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
+}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}
 extension KahfAdsIosSdk.MediumBannerAdView : Swift.Sendable {}
 extension KahfAdsIosSdk.LargeBannerAdView : Swift.Sendable {}
+extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
