@@ -6,65 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Logger",
-        "printedName": "Logger",
-        "declKind": "Class",
-        "usr": "s:13KahfAdsIosSdk6LoggerC",
-        "mangledName": "$s13KahfAdsIosSdk6LoggerC",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -6083,14 +6024,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tKF",
-            "mangledName": "$s13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tKF",
+            "usr": "s:13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tF",
+            "mangledName": "$s13KahfAdsIosSdk0abD0C10initialize6configyAA0abD6ConfigV_tF",
             "moduleName": "KahfAdsIosSdk",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -6140,6 +6080,65 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "declKind": "Class",
+        "usr": "s:13KahfAdsIosSdk6LoggerC",
+        "mangledName": "$s13KahfAdsIosSdk6LoggerC",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
