@@ -19,6 +19,9 @@ import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class Logger {
   @objc deinit
 }
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
 @_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
   @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
@@ -176,9 +179,6 @@ public struct KahfAdsViewConfig : Swift.Hashable {
     @objc deinit
   }
   @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
 }
 extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}

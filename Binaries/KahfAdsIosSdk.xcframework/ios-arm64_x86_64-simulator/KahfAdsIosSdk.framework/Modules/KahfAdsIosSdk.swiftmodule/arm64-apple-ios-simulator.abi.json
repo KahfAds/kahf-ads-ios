@@ -5934,16 +5934,6 @@
       },
       {
         "kind": "Import",
-        "name": "KMPNativeCoroutinesAsync",
-        "printedName": "KMPNativeCoroutinesAsync",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -6438,14 +6428,14 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 488,
+      "offset": 447,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 533,
+      "offset": 492,
       "length": 5,
       "value": "30000"
     }
