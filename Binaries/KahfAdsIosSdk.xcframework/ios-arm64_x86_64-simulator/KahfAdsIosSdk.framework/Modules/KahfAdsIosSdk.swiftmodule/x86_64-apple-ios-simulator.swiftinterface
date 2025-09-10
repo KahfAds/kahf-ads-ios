@@ -1,8 +1,10 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KahfAdsIosSdk
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KahfAdsIosSdk
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import Combine
+import DeveloperToolsSupport
+import FBSDKCoreKit
 import Foundation
 import Swift
 import SwiftUI
@@ -10,15 +12,43 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
-  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+import core
+public enum PlacementId : Swift.Hashable {
+  case Epom(Swift.String)
+  case Inhouse(Swift.String)
+  public func id() -> Swift.String
+  public static func == (a: KahfAdsIosSdk.PlacementId, b: KahfAdsIosSdk.PlacementId) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
+}
+public struct KahfAdsSdkConfig {
+  public init(fallbackPublisherId: Swift.String, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil, facebookAppId: Swift.String? = nil, facebookClientToken: Swift.String? = nil, enableFacebookTracking: Swift.Bool = false, enableAutoLogAppEvents: Swift.Bool = true, enableAdvertiserIdCollection: Swift.Bool = true, facebookUserData: [Swift.String : Swift.String] = [:])
+}
+public struct KahfAdsViewConfig : Swift.Hashable {
+  public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
+  public let screenName: Swift.String
+  public let placementId: KahfAdsIosSdk.PlacementId
+  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class KahfAdsSdk {
+  public static let shared: KahfAdsIosSdk.KahfAdsSdk
+  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
+  public func isSdkInitialized() -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FacebookTrackingHelper : ObjectiveC.NSObject {
+  @objc public static let shared: KahfAdsIosSdk.FacebookTrackingHelper
+  @objc public static func activate()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  @objc deinit
 }
 public protocol AdImpressionListener {
   func onAdLoaded()
@@ -41,21 +71,21 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
   public func onFallbackAdClicked(urlToLoad: Swift.String) -> Swift.Bool
 }
 @_Concurrency.MainActor @preconcurrency public struct SmallBannerAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil, adInfoConfig: KahfAdsIosSdk.AdInfoConfig? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk17SmallBannerAdViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct MediumBannerAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil, adInfoConfig: KahfAdsIosSdk.AdInfoConfig? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18MediumBannerAdViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct LargeBannerAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil, adInfoConfig: KahfAdsIosSdk.AdInfoConfig? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -63,7 +93,7 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public class KahfSmallBannerAdUIView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil, adInfoConfig: KahfAdsIosSdk.AdInfoConfig? = nil)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
@@ -71,7 +101,7 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public class KahfMediumBannerAdUIView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil, adInfoConfig: KahfAdsIosSdk.AdInfoConfig? = nil)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
@@ -79,34 +109,29 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public class KahfLargeBannerAdUIView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(viewConfig: KahfAdsIosSdk.KahfAdsViewConfig, adImpressionListener: (any KahfAdsIosSdk.AdImpressionListener)? = nil, fallbackAdImpressionListener: (any KahfAdsIosSdk.FallbackAdImpressionListener)? = nil, adInfoConfig: KahfAdsIosSdk.AdInfoConfig? = nil)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
   @objc deinit
 }
-public enum PlacementId : Swift.Hashable {
-  case Epom(Swift.String)
-  case Inhouse(Swift.String)
-  public func id() -> Swift.String
-  public static func == (a: KahfAdsIosSdk.PlacementId, b: KahfAdsIosSdk.PlacementId) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
 }
-public struct KahfAdsSdkConfig {
-  public init(fallbackPublisherId: Swift.String, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil)
+public struct AdInfoConfig {
+  public let showInfoIcon: Swift.Bool
+  public let onInfoButtonClicked: (() -> Swift.Void)?
+  public let onWhyThisAdClicked: (() -> Swift.Void)?
+  public let onCloseAdClicked: (() -> Swift.Void)?
+  public init(showInfoIcon: Swift.Bool = false, onInfoButtonClicked: (() -> Swift.Void)? = nil, onWhyThisAdClicked: (() -> Swift.Void)? = nil, onCloseAdClicked: (() -> Swift.Void)? = nil)
 }
-public struct KahfAdsViewConfig : Swift.Hashable {
-  public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
-  public let screenName: Swift.String
-  public let placementId: KahfAdsIosSdk.PlacementId
-  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil)
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+public protocol AdInfoListener {
+  func onWhyThisAdClicked()
+  func onCloseAdClicked()
+}
+extension KahfAdsIosSdk.AdInfoListener {
+  public func onWhyThisAdClicked()
+  public func onCloseAdClicked()
 }
 @objc open class KahfAdsError : Foundation.NSError, @unchecked Swift.Sendable {
   final public let message: Swift.String
@@ -168,19 +193,17 @@ public struct KahfAdsViewConfig : Swift.Hashable {
   }
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class KahfAdsSdk {
-  public static let shared: KahfAdsIosSdk.KahfAdsSdk
-  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
-  public func isSdkInitialized() -> Swift.Bool
-  @objc deinit
+@_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
+  @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13KahfAdsIosSdk18AsyncAnimatedImageV4bodyQrvp", 0) __
 }
-@_hasMissingDesignatedInitializers public class Logger {
-  @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
-}
-extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}
 extension KahfAdsIosSdk.MediumBannerAdView : Swift.Sendable {}
 extension KahfAdsIosSdk.LargeBannerAdView : Swift.Sendable {}
+extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
