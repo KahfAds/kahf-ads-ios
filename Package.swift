@@ -43,7 +43,6 @@ let package = Package(
                 "KahfAdSDK",
                 "Gifu",
                 "Nuke", 
-                "KMPNativeCoroutinesCore",
                 .product(name: "FacebookCore", package: "facebook-ios-sdk"),
                 .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
                 .product(name: "FacebookShare", package: "facebook-ios-sdk")
