@@ -40,9 +40,9 @@ let package = Package(
         .target(
             name: "KahfAdsSDK",
             dependencies: [
-                "KahfAdSDK",
                 "Gifu",
                 "Nuke", 
+                "KMP-NativeCoroutines",
                 .product(name: "FacebookCore", package: "facebook-ios-sdk"),
                 .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
                 .product(name: "FacebookShare", package: "facebook-ios-sdk")
