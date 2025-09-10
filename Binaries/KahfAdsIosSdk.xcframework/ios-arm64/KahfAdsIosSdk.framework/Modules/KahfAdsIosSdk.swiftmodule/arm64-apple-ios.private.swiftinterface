@@ -12,30 +12,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import core
-public enum PlacementId : Swift.Hashable {
-  case Epom(Swift.String)
-  case Inhouse(Swift.String)
-  public func id() -> Swift.String
-  public static func == (a: KahfAdsIosSdk.PlacementId, b: KahfAdsIosSdk.PlacementId) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct KahfAdsSdkConfig {
-  public init(fallbackPublisherId: Swift.String, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil, facebookAppId: Swift.String? = nil, facebookClientToken: Swift.String? = nil, enableFacebookTracking: Swift.Bool = false, enableAutoLogAppEvents: Swift.Bool = true, enableAdvertiserIdCollection: Swift.Bool = true, facebookUserData: [Swift.String : Swift.String] = [:])
-}
-public struct KahfAdsViewConfig : Swift.Hashable {
-  public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
-  public let screenName: Swift.String
-  public let placementId: KahfAdsIosSdk.PlacementId
-  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil)
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @objc open class KahfAdsError : Foundation.NSError, @unchecked Swift.Sendable {
   final public let message: Swift.String
   final public let underlyingError: (any Swift.Error)?
@@ -202,6 +178,29 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
   @objc public static let shared: KahfAdsIosSdk.FacebookTrackingHelper
   @objc public static func activate()
   @objc deinit
+}
+public enum PlacementId : Swift.Hashable {
+  case Epom(Swift.String)
+  case Inhouse(Swift.String)
+  public func id() -> Swift.String
+  public static func == (a: KahfAdsIosSdk.PlacementId, b: KahfAdsIosSdk.PlacementId) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct KahfAdsSdkConfig {
+  public init(fallbackPublisherId: Swift.String, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil, facebookAppId: Swift.String? = nil, facebookClientToken: Swift.String? = nil, enableFacebookTracking: Swift.Bool = false, enableAutoLogAppEvents: Swift.Bool = true, enableAdvertiserIdCollection: Swift.Bool = true, facebookUserData: [Swift.String : Swift.String] = [:])
+}
+public struct KahfAdsViewConfig : Swift.Hashable {
+  public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
+  public let screenName: Swift.String
+  public let placementId: KahfAdsIosSdk.PlacementId
+  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}

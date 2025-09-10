@@ -12,44 +12,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import core
-public enum PlacementId : Swift.Hashable {
-  case Epom(Swift.String)
-  case Inhouse(Swift.String)
-  public func id() -> Swift.String
-  public static func == (a: KahfAdsIosSdk.PlacementId, b: KahfAdsIosSdk.PlacementId) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct KahfAdsSdkConfig {
-  public init(fallbackPublisherId: Swift.String, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil, facebookAppId: Swift.String? = nil, facebookClientToken: Swift.String? = nil, enableFacebookTracking: Swift.Bool = false, enableAutoLogAppEvents: Swift.Bool = true, enableAdvertiserIdCollection: Swift.Bool = true, facebookUserData: [Swift.String : Swift.String] = [:])
-}
-public struct KahfAdsViewConfig : Swift.Hashable {
-  public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
-  public let screenName: Swift.String
-  public let placementId: KahfAdsIosSdk.PlacementId
-  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil)
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class KahfAdsSdk {
-  public static let shared: KahfAdsIosSdk.KahfAdsSdk
-  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
-  public func isSdkInitialized() -> Swift.Bool
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FacebookTrackingHelper : ObjectiveC.NSObject {
-  @objc public static let shared: KahfAdsIosSdk.FacebookTrackingHelper
-  @objc public static func activate()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Logger {
-  @objc deinit
-}
 public protocol AdImpressionListener {
   func onAdLoaded()
   func onAdClicked(urlToLoad: Swift.String) -> Swift.Bool
@@ -115,23 +77,33 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
   }
   @objc deinit
 }
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FacebookTrackingHelper : ObjectiveC.NSObject {
+  @objc public static let shared: KahfAdsIosSdk.FacebookTrackingHelper
+  @objc public static func activate()
+  @objc deinit
 }
-public struct AdInfoConfig {
-  public let showInfoIcon: Swift.Bool
-  public let onInfoButtonClicked: (() -> Swift.Void)?
-  public let onWhyThisAdClicked: (() -> Swift.Void)?
-  public let onCloseAdClicked: (() -> Swift.Void)?
-  public init(showInfoIcon: Swift.Bool = false, onInfoButtonClicked: (() -> Swift.Void)? = nil, onWhyThisAdClicked: (() -> Swift.Void)? = nil, onCloseAdClicked: (() -> Swift.Void)? = nil)
+public enum PlacementId : Swift.Hashable {
+  case Epom(Swift.String)
+  case Inhouse(Swift.String)
+  public func id() -> Swift.String
+  public static func == (a: KahfAdsIosSdk.PlacementId, b: KahfAdsIosSdk.PlacementId) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
-public protocol AdInfoListener {
-  func onWhyThisAdClicked()
-  func onCloseAdClicked()
+public struct KahfAdsSdkConfig {
+  public init(fallbackPublisherId: Swift.String, latitude: Swift.Float? = nil, longitude: Swift.Float? = nil, facebookAppId: Swift.String? = nil, facebookClientToken: Swift.String? = nil, enableFacebookTracking: Swift.Bool = false, enableAutoLogAppEvents: Swift.Bool = true, enableAdvertiserIdCollection: Swift.Bool = true, facebookUserData: [Swift.String : Swift.String] = [:])
 }
-extension KahfAdsIosSdk.AdInfoListener {
-  public func onWhyThisAdClicked()
-  public func onCloseAdClicked()
+public struct KahfAdsViewConfig : Swift.Hashable {
+  public static func == (lhs: KahfAdsIosSdk.KahfAdsViewConfig, rhs: KahfAdsIosSdk.KahfAdsViewConfig) -> Swift.Bool
+  public let screenName: Swift.String
+  public let placementId: KahfAdsIosSdk.PlacementId
+  public init(screenName: Swift.String, placementId: KahfAdsIosSdk.PlacementId, refreshIntervalInMillis: Swift.Int64? = nil)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc open class KahfAdsError : Foundation.NSError, @unchecked Swift.Sendable {
   final public let message: Swift.String
@@ -192,6 +164,33 @@ extension KahfAdsIosSdk.AdInfoListener {
     @objc deinit
   }
   @objc deinit
+}
+@_hasMissingDesignatedInitializers public class KahfAdsSdk {
+  public static let shared: KahfAdsIosSdk.KahfAdsSdk
+  public func initialize(config: KahfAdsIosSdk.KahfAdsSdkConfig)
+  public func isSdkInitialized() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  @objc deinit
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
+public struct AdInfoConfig {
+  public let showInfoIcon: Swift.Bool
+  public let onInfoButtonClicked: (() -> Swift.Void)?
+  public let onWhyThisAdClicked: (() -> Swift.Void)?
+  public let onCloseAdClicked: (() -> Swift.Void)?
+  public init(showInfoIcon: Swift.Bool = false, onInfoButtonClicked: (() -> Swift.Void)? = nil, onWhyThisAdClicked: (() -> Swift.Void)? = nil, onCloseAdClicked: (() -> Swift.Void)? = nil)
+}
+public protocol AdInfoListener {
+  func onWhyThisAdClicked()
+  func onCloseAdClicked()
+}
+extension KahfAdsIosSdk.AdInfoListener {
+  public func onWhyThisAdClicked()
+  public func onCloseAdClicked()
 }
 @_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
