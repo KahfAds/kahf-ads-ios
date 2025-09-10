@@ -10,7 +10,7 @@ let package = Package(
         // The only product your customers select
         .library(
             name: "KahfAdsSDK",
-            targets: ["KahfAdSDK"]
+            targets: ["KahfAdsSDK"]
         ),
     ],
     dependencies: [
@@ -35,8 +35,19 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KahfAdSDK",
-            path: "Binaries/KahfAdsIosSdk.xcframework",
+            path: "Binaries/KahfAdsIosSdk.xcframework"
         ),
-
+        .target(
+            name: "KahfAdsSDK",
+            dependencies: [
+                "KahfAdSDK",
+                "Gifu",
+                "Nuke", 
+                "KMPNativeCoroutinesCore",
+                .product(name: "FacebookCore", package: "facebook-ios-sdk"),
+                .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
+                .product(name: "FacebookShare", package: "facebook-ios-sdk")
+            ]
+        )
     ]
 )
