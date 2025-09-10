@@ -1,5 +1,5 @@
 {
-  "originHash" : "55d65c9fd44ac827b3a53ed0ce7352c137ac7ed0fa1b111f3252bca060f15f74",
+  "originHash" : "f6f630fbaa41368d8317c737f8cc7d4e1268445f43994cc27f3debcea0ce79f8",
   "pins" : [
     {
       "identity" : "facebook-ios-sdk",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rickclephas/KMP-NativeCoroutines.git",
       "state" : {
-        "revision" : "408735e85619544830524cc83d3a69ba7d71ad4a",
-        "version" : "1.0.0-ALPHA-44"
+        "revision" : "39f72d6a079c6752ded441adda0d7c2cfb8c0325",
+        "version" : "1.0.0-ALPHA-46"
       }
     },
     {

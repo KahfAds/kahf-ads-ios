@@ -23,10 +23,7 @@ let package = Package(
             url: "https://github.com/kean/Nuke.git",
             .exact("12.8.0")
         ),
-        .package(
-            url: "https://github.com/rickclephas/KMP-NativeCoroutines.git",
-            .exact("1.0.0-ALPHA-44")
-        ),
+        .package(url: "https://github.com/rickclephas/KMP-NativeCoroutines.git", exact: "1.0.0-ALPHA-46"),
         .package(
             url: "https://github.com/facebook/facebook-ios-sdk",
             .exact("14.1.0")
@@ -42,7 +39,7 @@ let package = Package(
             dependencies: [
                 "Gifu",
                 "Nuke", 
-                "KMP-NativeCoroutines",
+                .product(name: "KMPNativeCoroutinesAsync", package: "KMP-NativeCoroutines"),
                 .product(name: "FacebookCore", package: "facebook-ios-sdk"),
                 .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
                 .product(name: "FacebookShare", package: "facebook-ios-sdk")
