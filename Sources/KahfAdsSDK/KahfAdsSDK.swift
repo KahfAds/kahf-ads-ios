@@ -1,7 +1,7 @@
 // This is a wrapper target that re-exports the binary framework
 // and ensures all dependencies are available to consuming apps
 
-@_exported import KahfAdSDK
+
 @_exported import Gifu
 @_exported import Nuke
 @_exported import KMPNativeCoroutinesCore
