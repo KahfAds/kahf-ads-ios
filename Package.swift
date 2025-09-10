@@ -31,15 +31,16 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "KahfAdSDK",
+            name: "KahfAdsIosSdk",
             path: "Binaries/KahfAdsIosSdk.xcframework"
         ),
         .target(
             name: "KahfAdsSDK",
             dependencies: [
+                "KahfAdsIosSdk",
                 "Gifu",
                 "Nuke", 
-                .product(name: "KMPNativeCoroutinesAsync", package: "KMP-NativeCoroutines"),
+                .product(name: "KMPNativeCoroutinesCore", package: "KMP-NativeCoroutines"),
                 .product(name: "FacebookCore", package: "facebook-ios-sdk"),
                 .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
                 .product(name: "FacebookShare", package: "facebook-ios-sdk")
