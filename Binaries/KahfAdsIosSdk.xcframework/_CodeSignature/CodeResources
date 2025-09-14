@@ -128,6 +128,10 @@
 		<data>
 		MTN8A4kAUzNPBpcy8JGEv666M8U=
 		</data>
+		<key>signature</key>
+		<data>
+		u9DYDrEUicQDW+C1X3DSh4oz4cU=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -470,6 +474,17 @@
 			<key>hash2</key>
 			<data>
 			+CyEIBFtEk9y5ovLVqlP+2Ed6v2a8nP9ecnKVthcAiY=
+			</data>
+		</dict>
+		<key>signature</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u9DYDrEUicQDW+C1X3DSh4oz4cU=
+			</data>
+			<key>hash2</key>
+			<data>
+			gF0owijsN5EoQamtdVnAflgz4NLTtuwMwiTnDGQmKQE=
 			</data>
 		</dict>
 	</dict>
