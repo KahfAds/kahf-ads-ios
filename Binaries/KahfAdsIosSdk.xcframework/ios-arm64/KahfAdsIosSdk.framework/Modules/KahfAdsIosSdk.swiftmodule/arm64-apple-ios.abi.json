@@ -26,6 +26,725 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "PlacementId",
+        "printedName": "PlacementId",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Epom",
+            "printedName": "Epom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KahfAdsIosSdk.PlacementId.Type) -> (Swift.String) -> KahfAdsIosSdk.PlacementId",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> KahfAdsIosSdk.PlacementId",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlacementId",
+                        "printedName": "KahfAdsIosSdk.PlacementId",
+                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KahfAdsIosSdk.PlacementId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlacementId",
+                        "printedName": "KahfAdsIosSdk.PlacementId",
+                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO4EpomyACSScACmF",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO4EpomyACSScACmF",
+            "moduleName": "KahfAdsIosSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Inhouse",
+            "printedName": "Inhouse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KahfAdsIosSdk.PlacementId.Type) -> (Swift.String) -> KahfAdsIosSdk.PlacementId",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> KahfAdsIosSdk.PlacementId",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlacementId",
+                        "printedName": "KahfAdsIosSdk.PlacementId",
+                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KahfAdsIosSdk.PlacementId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlacementId",
+                        "printedName": "KahfAdsIosSdk.PlacementId",
+                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
+            "moduleName": "KahfAdsIosSdk"
+          },
+          {
+            "kind": "Function",
+            "name": "id",
+            "printedName": "id()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO2idSSyF",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO2idSSyF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO9hashValueSivp",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO9hashValueSivp",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO9hashValueSivg",
+                "mangledName": "$s13KahfAdsIosSdk11PlacementIdO9hashValueSivg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO4hash4intoys6HasherVz_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementId",
+                "printedName": "KahfAdsIosSdk.PlacementId",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementId",
+                "printedName": "KahfAdsIosSdk.PlacementId",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk11PlacementIdO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO2eeoiySbAC_ACtFZ",
+            "moduleName": "KahfAdsIosSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13KahfAdsIosSdk11PlacementIdO",
+        "mangledName": "$s13KahfAdsIosSdk11PlacementIdO",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KahfAdsSdkConfig",
+        "printedName": "KahfAdsSdkConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fallbackPublisherId:latitude:longitude:facebookAppId:facebookClientToken:enableFacebookTracking:enableAutoLogAppEvents:enableAdvertiserIdCollection:facebookUserData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsSdkConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsSdkConfig",
+                "usr": "s:13KahfAdsIosSdk0abD6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherId8latitude9longitude011facebookAppH00K11ClientToken22enableFacebookTracking0o7AutoLogL6Events0o10AdvertiserH10Collection0K8UserDataACSS_SfSgAMSSSgANS3bSDyS2SGtcfc",
+            "mangledName": "$s13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherId8latitude9longitude011facebookAppH00K11ClientToken22enableFacebookTracking0o7AutoLogL6Events0o10AdvertiserH10Collection0K8UserDataACSS_SfSgAMSSSgANS3bSDyS2SGtcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KahfAdsIosSdk0abD6ConfigV",
+        "mangledName": "$s13KahfAdsIosSdk0abD6ConfigV",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KahfAdsViewConfig",
+        "printedName": "KahfAdsViewConfig",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "KahfAdsIosSdk",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "screenName",
+            "printedName": "screenName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvp",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvg",
+                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placementId",
+            "printedName": "placementId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementId",
+                "printedName": "KahfAdsIosSdk.PlacementId",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovp",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlacementId",
+                    "printedName": "KahfAdsIosSdk.PlacementId",
+                    "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovg",
+                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(screenName:placementId:refreshIntervalInMillis:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KahfAdsViewConfig",
+                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementId",
+                "printedName": "KahfAdsIosSdk.PlacementId",
+                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenName11placementId23refreshIntervalInMillisACSS_AA09PlacementJ0Os5Int64VSgtcfc",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenName11placementId23refreshIntervalInMillisACSS_AA09PlacementJ0Os5Int64VSgtcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivp",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivp",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivg",
+                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV4hash4intoys6HasherVz_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV",
+        "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "KahfAdsError",
         "printedName": "KahfAdsError",
         "children": [
@@ -3141,6 +3860,565 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdInfoConfig",
+        "printedName": "AdInfoConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "showInfoIcon",
+            "printedName": "showInfoIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvp",
+            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvg",
+                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onInfoButtonClicked",
+            "printedName": "onInfoButtonClicked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvp",
+            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvg",
+                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onWhyThisAdClicked",
+            "printedName": "onWhyThisAdClicked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvp",
+            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvg",
+                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCloseAdClicked",
+            "printedName": "onCloseAdClicked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvp",
+            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvg",
+                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(showInfoIcon:onInfoButtonClicked:onWhyThisAdClicked:onCloseAdClicked:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdInfoConfig",
+                "printedName": "KahfAdsIosSdk.AdInfoConfig",
+                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV04showF4Icon02onF13ButtonClicked0j7WhyThiseL00j5CloseeL0ACSb_yycSgA2Htcfc",
+            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV04showF4Icon02onF13ButtonClicked0j7WhyThiseL00j5CloseeL0ACSb_yycSgA2Htcfc",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KahfAdsIosSdk12AdInfoConfigV",
+        "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdInfoListener",
+        "printedName": "AdInfoListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onWhyThisAdClicked",
+            "printedName": "onWhyThisAdClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk14AdInfoListenerP09onWhyThisE7ClickedyyF",
+            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerP09onWhyThisE7ClickedyyF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseAdClicked",
+            "printedName": "onCloseAdClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk14AdInfoListenerP07onCloseE7ClickedyyF",
+            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerP07onCloseE7ClickedyyF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onWhyThisAdClicked",
+            "printedName": "onWhyThisAdClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk14AdInfoListenerPAAE09onWhyThisE7ClickedyyF",
+            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerPAAE09onWhyThisE7ClickedyyF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseAdClicked",
+            "printedName": "onCloseAdClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk14AdInfoListenerPAAE07onCloseE7ClickedyyF",
+            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerPAAE07onCloseE7ClickedyyF",
+            "moduleName": "KahfAdsIosSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
+            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13KahfAdsIosSdk14AdInfoListenerP",
+        "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerP",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -5575,565 +6853,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdInfoConfig",
-        "printedName": "AdInfoConfig",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "showInfoIcon",
-            "printedName": "showInfoIcon",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvp",
-            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvg",
-                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV04showF4IconSbvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onInfoButtonClicked",
-            "printedName": "onInfoButtonClicked",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvp",
-            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvg",
-                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV02onF13ButtonClickedyycSgvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onWhyThisAdClicked",
-            "printedName": "onWhyThisAdClicked",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvp",
-            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvg",
-                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV09onWhyThisE7ClickedyycSgvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onCloseAdClicked",
-            "printedName": "onCloseAdClicked",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvp",
-            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvg",
-                "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV07onCloseE7ClickedyycSgvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(showInfoIcon:onInfoButtonClicked:onWhyThisAdClicked:onCloseAdClicked:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdInfoConfig",
-                "printedName": "KahfAdsIosSdk.AdInfoConfig",
-                "usr": "s:13KahfAdsIosSdk12AdInfoConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk12AdInfoConfigV04showF4Icon02onF13ButtonClicked0j7WhyThiseL00j5CloseeL0ACSb_yycSgA2Htcfc",
-            "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV04showF4Icon02onF13ButtonClicked0j7WhyThiseL00j5CloseeL0ACSb_yycSgA2Htcfc",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13KahfAdsIosSdk12AdInfoConfigV",
-        "mangledName": "$s13KahfAdsIosSdk12AdInfoConfigV",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdInfoListener",
-        "printedName": "AdInfoListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onWhyThisAdClicked",
-            "printedName": "onWhyThisAdClicked()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk14AdInfoListenerP09onWhyThisE7ClickedyyF",
-            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerP09onWhyThisE7ClickedyyF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onCloseAdClicked",
-            "printedName": "onCloseAdClicked()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk14AdInfoListenerP07onCloseE7ClickedyyF",
-            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerP07onCloseE7ClickedyyF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onWhyThisAdClicked",
-            "printedName": "onWhyThisAdClicked()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk14AdInfoListenerPAAE09onWhyThisE7ClickedyyF",
-            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerPAAE09onWhyThisE7ClickedyyF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onCloseAdClicked",
-            "printedName": "onCloseAdClicked()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk14AdInfoListenerPAAE07onCloseE7ClickedyyF",
-            "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerPAAE07onCloseE7ClickedyyF",
-            "moduleName": "KahfAdsIosSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : KahfAdsIosSdk.AdInfoListener>",
-            "sugared_genericSig": "<Self where Self : KahfAdsIosSdk.AdInfoListener>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13KahfAdsIosSdk14AdInfoListenerP",
-        "mangledName": "$s13KahfAdsIosSdk14AdInfoListenerP",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "KahfAdsIosSdk"
       },
       {
@@ -6322,725 +7041,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PlacementId",
-        "printedName": "PlacementId",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "Epom",
-            "printedName": "Epom",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(KahfAdsIosSdk.PlacementId.Type) -> (Swift.String) -> KahfAdsIosSdk.PlacementId",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> KahfAdsIosSdk.PlacementId",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PlacementId",
-                        "printedName": "KahfAdsIosSdk.PlacementId",
-                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "KahfAdsIosSdk.PlacementId.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PlacementId",
-                        "printedName": "KahfAdsIosSdk.PlacementId",
-                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13KahfAdsIosSdk11PlacementIdO4EpomyACSScACmF",
-            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO4EpomyACSScACmF",
-            "moduleName": "KahfAdsIosSdk"
-          },
-          {
-            "kind": "Var",
-            "name": "Inhouse",
-            "printedName": "Inhouse",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(KahfAdsIosSdk.PlacementId.Type) -> (Swift.String) -> KahfAdsIosSdk.PlacementId",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> KahfAdsIosSdk.PlacementId",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PlacementId",
-                        "printedName": "KahfAdsIosSdk.PlacementId",
-                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "KahfAdsIosSdk.PlacementId.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PlacementId",
-                        "printedName": "KahfAdsIosSdk.PlacementId",
-                        "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
-            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO7InhouseyACSScACmF",
-            "moduleName": "KahfAdsIosSdk"
-          },
-          {
-            "kind": "Function",
-            "name": "id",
-            "printedName": "id()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk11PlacementIdO2idSSyF",
-            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO2idSSyF",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk11PlacementIdO9hashValueSivp",
-            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO9hashValueSivp",
-            "moduleName": "KahfAdsIosSdk",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk11PlacementIdO9hashValueSivg",
-                "mangledName": "$s13KahfAdsIosSdk11PlacementIdO9hashValueSivg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk11PlacementIdO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO4hash4intoys6HasherVz_tF",
-            "moduleName": "KahfAdsIosSdk",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PlacementId",
-                "printedName": "KahfAdsIosSdk.PlacementId",
-                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PlacementId",
-                "printedName": "KahfAdsIosSdk.PlacementId",
-                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk11PlacementIdO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s13KahfAdsIosSdk11PlacementIdO2eeoiySbAC_ACtFZ",
-            "moduleName": "KahfAdsIosSdk",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:13KahfAdsIosSdk11PlacementIdO",
-        "mangledName": "$s13KahfAdsIosSdk11PlacementIdO",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "KahfAdsSdkConfig",
-        "printedName": "KahfAdsSdkConfig",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(fallbackPublisherId:latitude:longitude:facebookAppId:facebookClientToken:enableFacebookTracking:enableAutoLogAppEvents:enableAdvertiserIdCollection:facebookUserData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsSdkConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsSdkConfig",
-                "usr": "s:13KahfAdsIosSdk0abD6ConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Float?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Float?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherId8latitude9longitude011facebookAppH00K11ClientToken22enableFacebookTracking0o7AutoLogL6Events0o10AdvertiserH10Collection0K8UserDataACSS_SfSgAMSSSgANS3bSDyS2SGtcfc",
-            "mangledName": "$s13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherId8latitude9longitude011facebookAppH00K11ClientToken22enableFacebookTracking0o7AutoLogL6Events0o10AdvertiserH10Collection0K8UserDataACSS_SfSgAMSSSgANS3bSDyS2SGtcfc",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13KahfAdsIosSdk0abD6ConfigV",
-        "mangledName": "$s13KahfAdsIosSdk0abD6ConfigV",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "KahfAdsViewConfig",
-        "printedName": "KahfAdsViewConfig",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsViewConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsViewConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV2eeoiySbAC_ACtFZ",
-            "moduleName": "KahfAdsIosSdk",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "screenName",
-            "printedName": "screenName",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvp",
-            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvg",
-                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenNameSSvg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "placementId",
-            "printedName": "placementId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PlacementId",
-                "printedName": "KahfAdsIosSdk.PlacementId",
-                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovp",
-            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovp",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PlacementId",
-                    "printedName": "KahfAdsIosSdk.PlacementId",
-                    "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovg",
-                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV11placementIdAA09PlacementH0Ovg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(screenName:placementId:refreshIntervalInMillis:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KahfAdsViewConfig",
-                "printedName": "KahfAdsIosSdk.KahfAdsViewConfig",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PlacementId",
-                "printedName": "KahfAdsIosSdk.PlacementId",
-                "usr": "s:13KahfAdsIosSdk11PlacementIdO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int64?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV10screenName11placementId23refreshIntervalInMillisACSS_AA09PlacementJ0Os5Int64VSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV10screenName11placementId23refreshIntervalInMillisACSS_AA09PlacementJ0Os5Int64VSgtcfc",
-            "moduleName": "KahfAdsIosSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivp",
-            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivp",
-            "moduleName": "KahfAdsIosSdk",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivg",
-                "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV9hashValueSivg",
-                "moduleName": "KahfAdsIosSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV4hash4intoys6HasherVz_tF",
-            "moduleName": "KahfAdsIosSdk",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13KahfAdsIosSdk0aB10ViewConfigV",
-        "mangledName": "$s13KahfAdsIosSdk0aB10ViewConfigV",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "KahfAdsIosSdk"
       },
       {
@@ -7212,6 +7212,41 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 6,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1313,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1359,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1410,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
+      "kind": "Dictionary",
+      "offset": 1461,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
       "kind": "StringLiteral",
       "offset": 484,
@@ -7280,6 +7315,13 @@
       "offset": 533,
       "length": 5,
       "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AdInfoConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 627,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
@@ -7387,13 +7429,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AdInfoConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 627,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/FacebookTrackingHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 409,
@@ -7413,41 +7448,6 @@
       "offset": 5785,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 6,
-      "value": "10000"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1313,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1359,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1410,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "Dictionary",
-      "offset": 1461,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/DerivedData\/KahfAdsIosSdk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KahfAdsIosSdk\/IntermediateBuildFilesPath\/KahfAdsIosSdk.build\/Release-iphoneos\/KahfAdsIosSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",

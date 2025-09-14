@@ -26,7 +26,7 @@ let package = Package(
         .package(url: "https://github.com/rickclephas/KMP-NativeCoroutines.git", exact: "1.0.0-ALPHA-46"),
         .package(
             url: "https://github.com/facebook/facebook-ios-sdk",
-            .exact("14.1.0")
+            .exact("17.0.2")
         )
     ],
     targets: [

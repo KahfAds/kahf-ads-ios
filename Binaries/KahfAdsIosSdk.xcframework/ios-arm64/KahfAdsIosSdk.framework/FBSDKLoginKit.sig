@@ -13,7 +13,7 @@
     <key>SDKDescription</key>
     <string>Facebook Login SDK for iOS providing authentication functionality</string>
     <key>BuildDate</key>
-    <string>2025-09-14T05:43:46Z</string>
+    <string>2025-09-14T06:12:18Z</string>
     <key>BuildEnvironment</key>
     <string>Darwin Kahfs-MacBook-Pro.local 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6041 arm64</string>
     <key>IntegrationMethod</key>

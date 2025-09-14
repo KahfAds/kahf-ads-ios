@@ -1,13 +1,13 @@
 {
-  "originHash" : "f6f630fbaa41368d8317c737f8cc7d4e1268445f43994cc27f3debcea0ce79f8",
+  "originHash" : "e972d6507e43c5ba4c114abd79de1a8f39b71b3caae48198d0105f65a37bd0e9",
   "pins" : [
     {
       "identity" : "facebook-ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/facebook/facebook-ios-sdk",
       "state" : {
-        "revision" : "c19607d535864533523d1f437c84035e5fb101cf",
-        "version" : "14.1.0"
+        "revision" : "9ed465ccd73c231144d49a9c681774577c616f34",
+        "version" : "17.0.2"
       }
     },
     {
