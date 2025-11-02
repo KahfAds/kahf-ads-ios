@@ -1,6 +1,15 @@
 {
-  "originHash" : "e972d6507e43c5ba4c114abd79de1a8f39b71b3caae48198d0105f65a37bd0e9",
+  "originHash" : "8b7c5c8cfcc968a26ad885e649d85b7d5943ce5336b6ff98738234f32ed62336",
   "pins" : [
+    {
+      "identity" : "bugsnag-cocoa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bugsnag/bugsnag-cocoa",
+      "state" : {
+        "revision" : "f4348c29cc881ce80e4e22a46f29d7f5a18e924b",
+        "version" : "6.34.1"
+      }
+    },
     {
       "identity" : "facebook-ios-sdk",
       "kind" : "remoteSourceControl",

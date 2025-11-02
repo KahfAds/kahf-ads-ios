@@ -23,6 +23,10 @@ let package = Package(
             url: "https://github.com/kean/Nuke.git",
             .exact("12.8.0")
         ),
+        .package(
+            url: "https://github.com/bugsnag/bugsnag-cocoa",
+            .exact("6.34.1")
+        ),
         .package(url: "https://github.com/rickclephas/KMP-NativeCoroutines.git", exact: "1.0.0-ALPHA-46"),
         .package(
             url: "https://github.com/facebook/facebook-ios-sdk",
