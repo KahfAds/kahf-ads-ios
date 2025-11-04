@@ -3037,7 +3037,10 @@
         "name": "FBSDKCoreKit",
         "printedName": "FBSDKCoreKit",
         "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk"
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7450,21 +7453,21 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/FacebookTrackingHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 409,
+      "offset": 418,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/FacebookTrackingHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 456,
+      "offset": 465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/FacebookTrackingHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5785,
+      "offset": 5794,
       "length": 4,
       "value": "true"
     },

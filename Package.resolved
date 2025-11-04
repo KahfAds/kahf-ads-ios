@@ -1,5 +1,5 @@
 {
-  "originHash" : "8b7c5c8cfcc968a26ad885e649d85b7d5943ce5336b6ff98738234f32ed62336",
+  "originHash" : "4cf99847115bbdacc76318aab4ca060757d24d7845df84c195fe26ec29f41382",
   "pins" : [
     {
       "identity" : "bugsnag-cocoa",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/facebook/facebook-ios-sdk",
       "state" : {
-        "revision" : "9ed465ccd73c231144d49a9c681774577c616f34",
-        "version" : "17.0.2"
+        "revision" : "a77ba210bf6534564ad4027fce2fef65babfadf8",
+        "version" : "18.0.1"
       }
     },
     {

@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		SifoH+/ANGums9GWH9RWy7Q8BfU=
+		3bkjtdp5eHray8kcJQBiRMs4cHI=
 		</data>
 		<key>Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ta4PZmqn+w7i90Wce/0B73ehIPE=
+		5J1asLnLReR9NWPJ/1tNZt02ztU=
 		</data>
 		<key>Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ta4PZmqn+w7i90Wce/0B73ehIPE=
+		5J1asLnLReR9NWPJ/1tNZt02ztU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -42,14 +42,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M5NNhoCYfBE57K5ox21xJqLmWfl+YXMc6Ysj+O665kA=
+			CayVcKVXPm9ysoaLydytc1WZalqQd2KgwEO8BP88Hnk=
 			</data>
 		</dict>
 		<key>Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KqTmvy4lyz47MyQS4o6pMhLzTz5kqHrCKIxvd1pwzR4=
+			Hu+3Lq76P8vW2V6Xnv5IpoCoihYgRJt9LH1onmcoLMg=
 			</data>
 		</dict>
 		<key>Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KqTmvy4lyz47MyQS4o6pMhLzTz5kqHrCKIxvd1pwzR4=
+			Hu+3Lq76P8vW2V6Xnv5IpoCoihYgRJt9LH1onmcoLMg=
 			</data>
 		</dict>
 	</dict>

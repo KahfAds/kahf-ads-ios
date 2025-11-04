@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import DeveloperToolsSupport
-import FBSDKCoreKit
 import Foundation
 import Swift
 import SwiftUI
