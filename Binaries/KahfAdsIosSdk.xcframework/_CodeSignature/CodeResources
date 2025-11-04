@@ -14,11 +14,11 @@
 		</data>
 		<key>ios-arm64/KahfAdsIosSdk.framework/KahfAdsIosSdk</key>
 		<data>
-		FWEs3fnsi+CZ1OEU9cKCg7KdQfw=
+		+hQSa3Tqcm0HAQE2xfTepRzR4Jw=
 		</data>
 		<key>ios-arm64/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		81P2Vgv9180y1bmP3gAZa/1rO3w=
+		SifoH+/ANGums9GWH9RWy7Q8BfU=
 		</data>
 		<key>ios-arm64/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/KahfAdsIosSdk.framework/_CodeSignature/CodeResources</key>
 		<data>
-		iEFvJDlJ6WoORWmyNj6A26VeqoY=
+		u37lms1JKOVMrOE8SUNEse3W/uM=
 		</data>
 		<key>ios-arm64/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/DWARF/KahfAdsIosSdk</key>
 		<data>
-		USXmzxsyw6I4vHoldJoh36cSV6E=
+		CScDxFJYYGcdnqS7IxyWZ/42ptI=
 		</data>
 		<key>ios-arm64/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Relocations/aarch64/KahfAdsIosSdk.yml</key>
 		<data>
-		R46giiczYKum50NjV4Jef77kfkE=
+		I7fFm4AdJaO27iVhid3W6yTWpcM=
 		</data>
 		<key>ios-arm64/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKCoreKit.swiftinterface</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/KahfAdsIosSdk</key>
 		<data>
-		eM22NhDa3BGv++k8hPcPwTzhGxw=
+		oM1iUD5uBFo8jmUVr/Lr6Riu/0c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		O0bqsD+lZnk0UVrfHYz2TtT9Yx8=
+		kv1en3gohUs/cj2RgkbbUSZkVVw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		O0bqsD+lZnk0UVrfHYz2TtT9Yx8=
+		kv1en3gohUs/cj2RgkbbUSZkVVw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/_CodeSignature/CodeResources</key>
 		<data>
-		P6u+I6uWSjxzn8yprA3aPJZF1AA=
+		S1oA0qfPlykMQWThSzXsbLJsn7c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -106,15 +106,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/DWARF/KahfAdsIosSdk</key>
 		<data>
-		K/tiUcFLaMvdvmiBlQLT6olrD+A=
+		qNmx4rzNgttX0vl+X8kGdqMXQj0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Relocations/aarch64/KahfAdsIosSdk.yml</key>
 		<data>
-		k/z6Ej0qbwfJwPuzDRiJTPpnqtA=
+		PBEJZtH2UEoKYT0ylawYh/WkiAA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Relocations/x86_64/KahfAdsIosSdk.yml</key>
 		<data>
-		f8pWYjLW0qc0kOSVKxGEPuuRpJY=
+		RcuwNFDQfPCQ0OfZkmecGA/XEoY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKCoreKit.swiftinterface</key>
 		<data>
@@ -153,22 +153,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FWEs3fnsi+CZ1OEU9cKCg7KdQfw=
+			+hQSa3Tqcm0HAQE2xfTepRzR4Jw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IvpOvu/y+vSBeuCflLU4G2Ye0d3YdPnPs0DPYZohpjw=
+			95+FVNXeFSxi/tTIJjtXETpTiwQlw1s+g26lu5opA6M=
 			</data>
 		</dict>
 		<key>ios-arm64/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			81P2Vgv9180y1bmP3gAZa/1rO3w=
+			SifoH+/ANGums9GWH9RWy7Q8BfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			798DaezEKHC+kmLOBa74sowEUyB6qUa1+8OkcvrnG74=
+			M5NNhoCYfBE57K5ox21xJqLmWfl+YXMc6Ysj+O665kA=
 			</data>
 		</dict>
 		<key>ios-arm64/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -208,11 +208,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iEFvJDlJ6WoORWmyNj6A26VeqoY=
+			u37lms1JKOVMrOE8SUNEse3W/uM=
 			</data>
 			<key>hash2</key>
 			<data>
-			a+W9QviSTnj3eblw4rX6Js+DaENJNuQlt+5s+PuOU4E=
+			TP7CVQptusyL1hSALHYXPv+dxKOXCNBBa8Dye2FdCdk=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Info.plist</key>
@@ -230,22 +230,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			USXmzxsyw6I4vHoldJoh36cSV6E=
+			CScDxFJYYGcdnqS7IxyWZ/42ptI=
 			</data>
 			<key>hash2</key>
 			<data>
-			YJ4IAimgFNjYJJxnZh9NUQRnD5ZdJD8lctgF+UrjBCE=
+			IOkL6CNk+fjZqjbiLP2RXTLOH4huebfHtmjWcJ48QOw=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Relocations/aarch64/KahfAdsIosSdk.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R46giiczYKum50NjV4Jef77kfkE=
+			I7fFm4AdJaO27iVhid3W6yTWpcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			htp5dMGmho8eTY47PsULgmsu6gAfnl5qHcwgoDxpV2Y=
+			nzS/7Lpj4SxFqtWwq8z0Q6txgIfDXUo9Xtpa96SVt14=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKCoreKit.swiftinterface</key>
@@ -285,22 +285,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eM22NhDa3BGv++k8hPcPwTzhGxw=
+			oM1iUD5uBFo8jmUVr/Lr6Riu/0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			UBX7OKxEiI3ppbFWxjt4vCjJplGfy50gdhEqXLIIJgo=
+			6+1xjl1oS9pte9FhrwBjKnhQODNQJNQnOahj/9e7dm4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O0bqsD+lZnk0UVrfHYz2TtT9Yx8=
+			kv1en3gohUs/cj2RgkbbUSZkVVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bt/JyGIrJn0JrYafcwLC280kC8mhhjjtii0UyX4JNGA=
+			UjdAsEWjEcM2IhjGjk6/O5D832/ZoiFAGqdXZctuY6g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -340,11 +340,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O0bqsD+lZnk0UVrfHYz2TtT9Yx8=
+			kv1en3gohUs/cj2RgkbbUSZkVVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bt/JyGIrJn0JrYafcwLC280kC8mhhjjtii0UyX4JNGA=
+			UjdAsEWjEcM2IhjGjk6/O5D832/ZoiFAGqdXZctuY6g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KahfAdsIosSdk.framework/Modules/KahfAdsIosSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -384,11 +384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P6u+I6uWSjxzn8yprA3aPJZF1AA=
+			S1oA0qfPlykMQWThSzXsbLJsn7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			cIWVFBDXHcra2i5Qsta/g7dwEehmMZ7qYVZDQAtxA1o=
+			TAelw7BQkY+1XA+m06fJzbqVR+ahslK+d+WZl6juBWE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Info.plist</key>
@@ -406,33 +406,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K/tiUcFLaMvdvmiBlQLT6olrD+A=
+			qNmx4rzNgttX0vl+X8kGdqMXQj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QrJooU8AY2LbrojCYDrKa/iRIGEt1mjKNvoO05FMJlE=
+			JY5NxRW145S1jPhbbTmMTElI5xNZDbXvUACLAghsybM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Relocations/aarch64/KahfAdsIosSdk.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k/z6Ej0qbwfJwPuzDRiJTPpnqtA=
+			PBEJZtH2UEoKYT0ylawYh/WkiAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			m+lAH1kI3P5dtSdiTyTuKNI2u/jwRTq/ZVkZLwibPF8=
+			4elO35tk6hX5rCMdZ4L8aZnPvz11e9iX/ATYKCILcW8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Relocations/x86_64/KahfAdsIosSdk.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f8pWYjLW0qc0kOSVKxGEPuuRpJY=
+			RcuwNFDQfPCQ0OfZkmecGA/XEoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			SUoB5+28kMP8jmbo4Fr2ecW5WIh7uhD+pZ9BYdLHAaY=
+			MM2ubTD3vUbvEL/TbwZhWqNCVKYuhWLd1OUiilddhEA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KahfAdsIosSdk.framework.dSYM/Contents/Resources/Swift/aarch64/FBSDKCoreKit.swiftinterface</key>
