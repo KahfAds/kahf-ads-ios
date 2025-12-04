@@ -1081,6 +1081,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk"
+      },
+      {
+        "kind": "Import",
         "name": "core",
         "printedName": "core",
         "declKind": "Import",
@@ -2173,6 +2180,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "KahfSmallBannerAdUIView",
         "printedName": "KahfSmallBannerAdUIView",
@@ -3020,197 +3034,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FBSDKCoreKit",
-        "printedName": "FBSDKCoreKit",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FacebookTrackingHelper",
-        "printedName": "FacebookTrackingHelper",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FacebookTrackingHelper",
-                "printedName": "KahfAdsIosSdk.FacebookTrackingHelper",
-                "usr": "c:@M@KahfAdsIosSdk@objc(cs)FacebookTrackingHelper"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@KahfAdsIosSdk@objc(cs)FacebookTrackingHelper(cpy)shared",
-            "mangledName": "$s13KahfAdsIosSdk22FacebookTrackingHelperC6sharedACvpZ",
-            "moduleName": "KahfAdsIosSdk",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FacebookTrackingHelper",
-                    "printedName": "KahfAdsIosSdk.FacebookTrackingHelper",
-                    "usr": "c:@M@KahfAdsIosSdk@objc(cs)FacebookTrackingHelper"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@KahfAdsIosSdk@objc(cs)FacebookTrackingHelper(cm)shared",
-                "mangledName": "$s13KahfAdsIosSdk22FacebookTrackingHelperC6sharedACvgZ",
-                "moduleName": "KahfAdsIosSdk",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "activate",
-            "printedName": "activate()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@KahfAdsIosSdk@objc(cs)FacebookTrackingHelper(cm)activate",
-            "mangledName": "$s13KahfAdsIosSdk22FacebookTrackingHelperC8activateyyFZ",
-            "moduleName": "KahfAdsIosSdk",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@KahfAdsIosSdk@objc(cs)FacebookTrackingHelper",
-        "mangledName": "$s13KahfAdsIosSdk22FacebookTrackingHelperC",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "KahfAdsIosSdk",
         "declAttributes": [
           "RawDocComment"
@@ -3526,7 +3349,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(fallbackPublisherId:latitude:longitude:facebookAppId:facebookClientToken:enableFacebookTracking:enableAutoLogAppEvents:enableAdvertiserIdCollection:facebookUserData:)",
+            "printedName": "init(fallbackPublisherId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3539,113 +3362,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Float?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Float?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:SD"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherId8latitude9longitude011facebookAppH00K11ClientToken22enableFacebookTracking0o7AutoLogL6Events0o10AdvertiserH10Collection0K8UserDataACSS_SfSgAMSSSgANS3bSDyS2SGtcfc",
-            "mangledName": "$s13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherId8latitude9longitude011facebookAppH00K11ClientToken22enableFacebookTracking0o7AutoLogL6Events0o10AdvertiserH10Collection0K8UserDataACSS_SfSgAMSSSgANS3bSDyS2SGtcfc",
+            "usr": "s:13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherIdACSS_tcfc",
+            "mangledName": "$s13KahfAdsIosSdk0abD6ConfigV19fallbackPublisherIdACSS_tcfc",
             "moduleName": "KahfAdsIosSdk",
             "declAttributes": [
               "AccessControl"
@@ -6939,16 +6660,6 @@
       },
       {
         "kind": "Import",
-        "name": "KMPNativeCoroutinesAsync",
-        "printedName": "KMPNativeCoroutinesAsync",
-        "declKind": "Import",
-        "moduleName": "KahfAdsIosSdk",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -7369,105 +7080,84 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1679,
+      "offset": 1694,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1872,
+      "offset": 1887,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1917,
+      "offset": 1932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1962,
+      "offset": 1977,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2183,
+      "offset": 2198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11884,
+      "offset": 11975,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13159,
+      "offset": 13250,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13291,
+      "offset": 13382,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 32714,
+      "offset": 32907,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 35710,
+      "offset": 35902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 42566,
+      "offset": 42957,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57674,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/FacebookTrackingHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 418,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/FacebookTrackingHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 465,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/FacebookTrackingHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5794,
+      "offset": 58220,
       "length": 4,
       "value": "true"
     },
@@ -7477,34 +7167,6 @@
       "offset": 245,
       "length": 6,
       "value": "10000"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1313,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1359,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1410,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",
-      "kind": "Dictionary",
-      "offset": 1461,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsError.swift",
@@ -7565,14 +7227,14 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 524,
+      "offset": 483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdsSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 569,
+      "offset": 528,
       "length": 5,
       "value": "30000"
     },
