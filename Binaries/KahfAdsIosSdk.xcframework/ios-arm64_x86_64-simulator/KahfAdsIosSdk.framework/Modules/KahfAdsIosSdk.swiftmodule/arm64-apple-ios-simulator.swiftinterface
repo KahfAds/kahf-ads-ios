@@ -8,9 +8,11 @@ import Foundation
 import Swift
 import SwiftUI
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import _WebKit_SwiftUI
 public struct AdInfoConfig {
   public let showInfoIcon: Swift.Bool
   public let onInfoButtonClicked: (() -> Swift.Void)?
@@ -28,12 +30,25 @@ extension KahfAdsIosSdk.AdInfoListener {
   public func onWhyThisAdClicked()
   public func onCloseAdClicked()
 }
+public enum ImageContentMode {
+  case fit
+  case fill
+  case fillWidth
+  case fillHeight
+  case stretch
+  public static func == (a: KahfAdsIosSdk.ImageContentMode, b: KahfAdsIosSdk.ImageContentMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_Concurrency.MainActor @preconcurrency public struct AsyncAnimatedImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
   @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public let contentMode: KahfAdsIosSdk.ImageContentMode
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), contentMode: KahfAdsIosSdk.ImageContentMode = .fit, onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
   #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -262,6 +277,8 @@ extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
   #endif
 }
+extension KahfAdsIosSdk.ImageContentMode : Swift.Equatable {}
+extension KahfAdsIosSdk.ImageContentMode : Swift.Hashable {}
 extension KahfAdsIosSdk.AsyncAnimatedImage : Swift.Sendable {}
 extension KahfAdsIosSdk.SmallBannerAdView : Swift.Sendable {}
 extension KahfAdsIosSdk.MediumBannerAdView : Swift.Sendable {}

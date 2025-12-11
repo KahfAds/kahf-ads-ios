@@ -572,6 +572,13 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "KahfAdsIosSdk"
+      },
+      {
+        "kind": "Import",
         "name": "Nuke",
         "printedName": "Nuke",
         "declKind": "Import",
@@ -600,6 +607,344 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageContentMode",
+        "printedName": "ImageContentMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fit",
+            "printedName": "fit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KahfAdsIosSdk.ImageContentMode.Type) -> KahfAdsIosSdk.ImageContentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageContentMode",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode",
+                    "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageContentMode",
+                        "printedName": "KahfAdsIosSdk.ImageContentMode",
+                        "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO3fityA2CmF",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO3fityA2CmF",
+            "moduleName": "KahfAdsIosSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "fill",
+            "printedName": "fill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KahfAdsIosSdk.ImageContentMode.Type) -> KahfAdsIosSdk.ImageContentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageContentMode",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode",
+                    "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageContentMode",
+                        "printedName": "KahfAdsIosSdk.ImageContentMode",
+                        "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO4fillyA2CmF",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO4fillyA2CmF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillWidth",
+            "printedName": "fillWidth",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KahfAdsIosSdk.ImageContentMode.Type) -> KahfAdsIosSdk.ImageContentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageContentMode",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode",
+                    "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageContentMode",
+                        "printedName": "KahfAdsIosSdk.ImageContentMode",
+                        "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO9fillWidthyA2CmF",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO9fillWidthyA2CmF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillHeight",
+            "printedName": "fillHeight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KahfAdsIosSdk.ImageContentMode.Type) -> KahfAdsIosSdk.ImageContentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageContentMode",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode",
+                    "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageContentMode",
+                        "printedName": "KahfAdsIosSdk.ImageContentMode",
+                        "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO10fillHeightyA2CmF",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO10fillHeightyA2CmF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stretch",
+            "printedName": "stretch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KahfAdsIosSdk.ImageContentMode.Type) -> KahfAdsIosSdk.ImageContentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageContentMode",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode",
+                    "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageContentMode",
+                        "printedName": "KahfAdsIosSdk.ImageContentMode",
+                        "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO7stretchyA2CmF",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO7stretchyA2CmF",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageContentMode",
+                "printedName": "KahfAdsIosSdk.ImageContentMode",
+                "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageContentMode",
+                "printedName": "KahfAdsIosSdk.ImageContentMode",
+                "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "KahfAdsIosSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO9hashValueSivp",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO9hashValueSivp",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk16ImageContentModeO9hashValueSivg",
+                "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO9hashValueSivg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KahfAdsIosSdk16ImageContentModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "KahfAdsIosSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13KahfAdsIosSdk16ImageContentModeO",
+        "mangledName": "$s13KahfAdsIosSdk16ImageContentModeO",
+        "moduleName": "KahfAdsIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
         ]
       },
       {
@@ -824,9 +1169,55 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "contentMode",
+            "printedName": "contentMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageContentMode",
+                "printedName": "KahfAdsIosSdk.ImageContentMode",
+                "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV11contentModeAA0g7ContentI0Ovp",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV11contentModeAA0g7ContentI0Ovp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageContentMode",
+                    "printedName": "KahfAdsIosSdk.ImageContentMode",
+                    "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV11contentModeAA0g7ContentI0Ovg",
+                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV11contentModeAA0g7ContentI0Ovg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(base64Data:url:placeholder:onSuccess:onFailure:)",
+            "printedName": "init(base64Data:url:placeholder:contentMode:onSuccess:onFailure:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -870,6 +1261,13 @@
                 "printedName": "SwiftUI.AnyView",
                 "hasDefaultArg": true,
                 "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageContentMode",
+                "printedName": "KahfAdsIosSdk.ImageContentMode",
+                "hasDefaultArg": true,
+                "usr": "s:13KahfAdsIosSdk16ImageContentModeO"
               },
               {
                 "kind": "TypeNominal",
@@ -926,8 +1324,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder9onSuccess0L7FailureAC10Foundation0I0VSg_AI3URLVSg7SwiftUI7AnyViewVyycSgys5Error_pcSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder9onSuccess0L7FailureAC10Foundation0I0VSg_AI3URLVSg7SwiftUI7AnyViewVyycSgys5Error_pcSgtcfc",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder11contentMode9onSuccess0N7FailureAC10Foundation0I0VSg_AJ3URLVSg7SwiftUI7AnyViewVAA0g7ContentM0OyycSgys5Error_pcSgtcfc",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder11contentMode9onSuccess0N7FailureAC10Foundation0I0VSg_AJ3URLVSg7SwiftUI7AnyViewVAA0g7ContentM0OyycSgys5Error_pcSgtcfc",
             "moduleName": "KahfAdsIosSdk",
             "declAttributes": [
               "Preconcurrency",
@@ -1002,8 +1400,7 @@
         "declAttributes": [
           "Preconcurrency",
           "Custom",
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -7059,21 +7456,7 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3880,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3919,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5418,
+      "offset": 8391,
       "length": 5,
       "value": "false"
     },
@@ -7136,28 +7519,28 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 32907,
+      "offset": 32952,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 35902,
+      "offset": 35947,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 42957,
+      "offset": 43002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 58220,
+      "offset": 58265,
       "length": 4,
       "value": "true"
     },
