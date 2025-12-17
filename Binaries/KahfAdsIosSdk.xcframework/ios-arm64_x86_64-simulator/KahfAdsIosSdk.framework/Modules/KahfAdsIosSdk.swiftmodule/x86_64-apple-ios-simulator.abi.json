@@ -1170,6 +1170,92 @@
           },
           {
             "kind": "Var",
+            "name": "onImageSizeLoaded",
+            "printedName": "onImageSizeLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreFoundation.CGSize) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGSize) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV02onG10SizeLoadedySo6CGSizeVcSgvp",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV02onG10SizeLoadedySo6CGSizeVcSgvp",
+            "moduleName": "KahfAdsIosSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreFoundation.CGSize) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreFoundation.CGSize) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGSize",
+                            "printedName": "CoreFoundation.CGSize",
+                            "usr": "c:@S@CGSize"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV02onG10SizeLoadedySo6CGSizeVcSgvg",
+                "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV02onG10SizeLoadedySo6CGSizeVcSgvg",
+                "moduleName": "KahfAdsIosSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "contentMode",
             "printedName": "contentMode",
             "children": [
@@ -1217,7 +1303,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(base64Data:url:placeholder:contentMode:onSuccess:onFailure:)",
+            "printedName": "init(base64Data:url:placeholder:contentMode:onSuccess:onFailure:onImageSizeLoaded:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1321,11 +1407,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreFoundation.CGSize) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGSize) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder11contentMode9onSuccess0N7FailureAC10Foundation0I0VSg_AJ3URLVSg7SwiftUI7AnyViewVAA0g7ContentM0OyycSgys5Error_pcSgtcfc",
-            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder11contentMode9onSuccess0N7FailureAC10Foundation0I0VSg_AJ3URLVSg7SwiftUI7AnyViewVAA0g7ContentM0OyycSgys5Error_pcSgtcfc",
+            "usr": "s:13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder11contentMode9onSuccess0N7Failure0nG10SizeLoadedAC10Foundation0I0VSg_AK3URLVSg7SwiftUI7AnyViewVAA0g7ContentM0OyycSgys5Error_pcSgySo6CGSizeVcSgtcfc",
+            "mangledName": "$s13KahfAdsIosSdk18AsyncAnimatedImageV10base64Data3url11placeholder11contentMode9onSuccess0N7Failure0nG10SizeLoadedAC10Foundation0I0VSg_AK3URLVSg7SwiftUI7AnyViewVAA0g7ContentM0OyycSgys5Error_pcSgySo6CGSizeVcSgtcfc",
             "moduleName": "KahfAdsIosSdk",
             "declAttributes": [
               "Preconcurrency",
@@ -3276,6 +3389,79 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfLargeBannerAdUIView(im)layoutSubviews",
+            "mangledName": "$s13KahfAdsIosSdk0A19LargeBannerAdUIViewC14layoutSubviewsyyF",
+            "moduleName": "KahfAdsIosSdk",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "systemLayoutSizeFitting",
+            "printedName": "systemLayoutSizeFitting(_:withHorizontalFittingPriority:verticalFittingPriority:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UILayoutPriority",
+                "printedName": "UIKit.UILayoutPriority",
+                "usr": "c:@T@UILayoutPriority"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UILayoutPriority",
+                "printedName": "UIKit.UILayoutPriority",
+                "usr": "c:@T@UILayoutPriority"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KahfAdsIosSdk@objc(cs)KahfLargeBannerAdUIView(im)systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:",
+            "mangledName": "$s13KahfAdsIosSdk0A19LargeBannerAdUIViewC23systemLayoutSizeFitting_014withHorizontalL8Priority08verticallO0So6CGSizeVAH_So08UILayoutO0aAJtF",
+            "moduleName": "KahfAdsIosSdk",
+            "overriding": true,
+            "objc_name": "systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -7456,28 +7642,28 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 6674,
+      "offset": 7265,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 6714,
+      "offset": 7305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 12105,
+      "offset": 12696,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/AsyncImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 12151,
+      "offset": 12742,
       "length": 5,
       "value": "false"
     },
@@ -7519,51 +7705,100 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11993,
+      "offset": 12839,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13268,
+      "offset": 14541,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13400,
+      "offset": 14673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23122,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23216,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28928,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 32453,
+      "offset": 38106,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 35367,
+      "offset": 41020,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 42118,
+      "offset": 47669,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 48489,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57299,
+      "offset": 64065,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 79121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 79523,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 80086,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/KahfAdConfig.swift",

@@ -46,9 +46,10 @@ public enum ImageContentMode {
   @_Concurrency.MainActor @preconcurrency public let placeholder: SwiftUICore.AnyView
   @_Concurrency.MainActor @preconcurrency public let onSuccess: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public let onFailure: ((any Swift.Error) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public let onImageSizeLoaded: ((CoreFoundation.CGSize) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public let contentMode: KahfAdsIosSdk.ImageContentMode
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), contentMode: KahfAdsIosSdk.ImageContentMode = .fit, onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(base64Data: Foundation.Data? = nil, url: Foundation.URL? = nil, placeholder: SwiftUICore.AnyView = AnyView(EmptyView()), contentMode: KahfAdsIosSdk.ImageContentMode = .fit, onSuccess: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil, onImageSizeLoaded: ((CoreFoundation.CGSize) -> Swift.Void)? = nil)
   #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -142,6 +143,8 @@ extension KahfAdsIosSdk.FallbackAdImpressionListener {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func systemLayoutSizeFitting(_ targetSize: CoreFoundation.CGSize, withHorizontalFittingPriority horizontalFittingPriority: UIKit.UILayoutPriority, verticalFittingPriority: UIKit.UILayoutPriority) -> CoreFoundation.CGSize
   @objc deinit
 }
 public enum PlacementId : Swift.Hashable {
