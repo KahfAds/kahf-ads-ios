@@ -7740,63 +7740,42 @@
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 28928,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 38106,
+      "offset": 37143,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 41020,
+      "offset": 40057,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 47669,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 48489,
+      "offset": 46899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 64065,
+      "offset": 62229,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 79121,
+      "offset": 77752,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 79523,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shafayat\/AndroidStudioProjects\/kahf-ads-kmp-sdk\/KahfAdsIosSdk\/KahfAdsIosSdk\/BannerAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 80086,
+      "offset": 77833,
       "length": 1,
       "value": "1"
     },
